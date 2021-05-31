@@ -1,0 +1,30 @@
+
+.cards_container{
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 310px;
+  position: relative;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.cards_container_img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.cards_container_title {
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+  font-size: 25px;
+  font-weight: 700;
+  -webkit-user-select: none;
+  user-select: none;
+  /* font-family: 'Circe'; */
+  z-index: 2;
+  color: white;
+}

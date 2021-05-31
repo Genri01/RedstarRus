@@ -1,0 +1,141 @@
+.police_header {    
+
+  padding-bottom: 3%;
+  font-size: 3em;
+  font-family: 'Montserrat-Bold';
+}
+
+.police_title {    
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 1.1em;
+  font-family: 'Montserrat-SemiBold';
+}
+
+.police_description {    
+  font-size: 1em;
+  font-family: 'Montserrat-Regular';
+}
+
+.content_container {    
+  padding-left: 5%;
+  padding-top: 20%;
+  padding-right: 10%;
+  width: 90%;
+  padding-bottom: 3%;
+}
+
+.about_page_container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  padding-top: 200px;
+}
+
+.about_page_container_left {
+  display: flex;
+  width: 30%;
+  height: 100%;
+  flex-flow: column;
+  padding-left: 8%;
+}
+
+.about_page_container_right {
+  display: flex;
+  width: 70%;
+  height: 100%;
+  flex-direction: column;
+  padding-top: 10%;
+  padding-right: 8%;
+  padding-bottom: 10%;
+}
+
+.container_work {
+  display: flex;
+  width:100%;
+  height: 100%;
+  flex-direction: row;
+}
+
+.container_link {
+  display: flex;
+  width:100%;
+  height: 100%;
+  flex-direction: row;
+}
+
+.container_social {
+  display: flex;
+  width:100%;
+  height: 100%;
+  flex-direction: row;
+}
+
+.contacts_container {
+  display: flex;
+  width:100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about_header_cards {
+  font-size: 2em;
+  font-family: 'Montserrat-Bold';
+  padding: 10px 0px;
+}
+
+.title_company {
+  font-size: 1em;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+
+.title_about {
+  font-size: 3em;
+  font-family: 'Montserrat-Bold';
+  padding: 40px 0px;
+}
+
+.title_contact {
+  font-size: 1em;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+
+.about_description_cards {
+  font-size: 1em;
+  font-family: 'Montserrat-Regular';
+  padding: 10px 0px;
+}
+
+.about_title_cards {
+  font-size: 1em;
+  font-family: 'Montserrat-SemiBold';
+  padding: 10px 0px;
+}
+
+.contacts_header {
+  font-size: 2em;
+  font-family: 'Montserrat-Bold';
+  padding: 14px 0px;
+}
+
+.contacts_title {
+  font-size: 1.3em;
+  font-family: 'Montserrat-Bold';
+  padding: 10px 0px;
+}
+
+.contacts_title_description {
+  font-size: 1em;
+  font-family: 'Montserrat-SemiBold';
+  padding: 10px 0px;
+}
+
+.contacts_description{
+  font-size: 1em;
+  font-family: 'Montserrat-Regular';
+  padding: 10px 0px;
+}

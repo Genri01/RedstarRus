@@ -1,0 +1,37 @@
+
+.about_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  padding-left: 8%;
+  padding-top: 2%;
+}
+
+.about_cantainer_cards {
+  display: flex;
+  flex-direction: row;
+  width: 82%;
+  justify-content:center;
+  margin-top: 50px;
+}
+
+
+.about_card { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 30px;
+}
+
+.about_header { 
+font-size: 3em;
+font-family: 'Montserrat-Bold';
+}
+
+.about_title { 
+  font-size: 2em;
+  font-family: 'Montserrat-Regular';
+  padding-bottom: 40px;
+}

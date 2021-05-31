@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="36px" viewBox="0 0 32 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 56</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="32"></rect>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ТУР" transform="translate(-140.000000, -2310.000000)">
+            <g id="Group-67" transform="translate(0.000000, 1190.000000)">
+                <g id="Group-56" transform="translate(140.000000, 1120.000000)">
+                    <rect id="Rectangle-Copy-5" fill="#F8F8F8" x="4" y="0" width="24" height="36"></rect>
+                    <g id="Group-4" transform="translate(0.000000, 2.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Rectangle"></g>
+                        <g id="Group-6" mask="url(#mask-2)" stroke-linejoin="round">
+                            <g transform="translate(13.540001, 14.004401) rotate(123.000000) translate(-13.540001, -14.004401) translate(0.206668, 2.671068)">
+                                <g id="Group-2" stroke="none" stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 5.696234)">
+                                    <path d="M0,1.32130964 C0,7.90996981 5.96953667,13.2511342 13.3333333,13.2511342 C20.69713,13.2511342 26.6666667,7.90996981 26.6666667,1.32130964 L0,1.32130964 Z" id="Path" stroke="#4D4D4D" stroke-width="1.5" fill="#FFFFFF"></path>
+                                    <path d="M12.8984127,1.42744121 L22.7229741,10.7607745 C19.4481203,13.4274412 16.1732665,14.7607745 12.8984127,14.7607745 C9.62355892,14.7607745 6.34870512,13.4274412 3.07385132,10.7607745 L12.8984127,1.42744121 Z" id="Triangle" stroke="#4D4D4D" stroke-width="1.5" fill="#FFFFFF"></path>
+                                </g>
+                                <path d="M16.1403509,7.01754386 C20.3508772,2.33918129 22.6900585,0 23.1578947,0 C23.8596491,0 25.9649123,2.10526316 25.9649123,6.31578947" id="Path-18" stroke="#4D4D4D" stroke-width="1.5"></path>
+                                <path d="M0.701754386,7.01754386 C4.9122807,2.33918129 7.25146199,0 7.71929825,0 C8.42105263,0 10.5263158,2.10526316 10.5263158,6.31578947" id="Path-18" stroke="#4D4D4D" stroke-width="1.5" transform="translate(5.614035, 3.508772) scale(-1, 1) translate(-5.614035, -3.508772) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
