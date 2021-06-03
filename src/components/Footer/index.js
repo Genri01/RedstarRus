@@ -12,7 +12,7 @@ function Footer(props) {
         <div className="footer_up">
           <div className="footer_logo_section">
             <div className="footer_menu_logo_container">
-            <Link to="/"><img src={logo_footer} alt="logo" width="190" height="85" /></Link>
+            <Link to="/"><img src={logo_footer} alt="logo" width="159" height="71" /></Link>
             </div>
           </div>
           <div className="footer_desription_section_left">
@@ -28,8 +28,8 @@ function Footer(props) {
           </div>
           <div className="footer_social_section">
             <div className="social_container">
-              <img style={{cursor: 'pointer'}} onClick={(e)=>{ document.location.href = "http://www.instagram.com";}}  src={instagram} alt="instagram" width="45" height="45" />
-              <img style={{cursor: 'pointer'}} onClick={(e)=>{ document.location.href = "https://www.facebook.com/";}} src={facebook} alt="facebook" width="45" height="45" />
+              <img style={{cursor: 'pointer',margin: '0 24px 0 0'}} onClick={(e)=>{ document.location.href = "http://www.instagram.com";}}  src={instagram} alt="instagram" width="28" height="28" />
+              <img style={{cursor: 'pointer'}} onClick={(e)=>{ document.location.href = "https://www.facebook.com/";}} src={facebook} alt="facebook" width="28" height="28" />
             </div>
           </div>
         </div>
@@ -38,8 +38,8 @@ function Footer(props) {
             <div className="coperait_txt">Copiraight © 2021 Red Star All right reserved</div>
           </div>
           <div className="visa_container">
-            <img src={visa} alt="visa" width="45" height="45" />
-            <img src={mastercard} alt="mastercard" width="45" height="45" />
+            <img src={visa} alt="visa" width="49" height="17" />
+            <img src={mastercard} alt="mastercard" width="35" height="23" />
           </div>
         </div>
       </div>

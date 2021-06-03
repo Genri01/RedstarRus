@@ -5,7 +5,7 @@ import './style.css';
 
 function IndividualBlock(props) {
   const { onClick } = props
-  const { individual, churches_1 , vip, boat, optional, disabled, lunch, star_2} = images;
+  const { individual, individual_card , vip, boat, optional, disabled, lunch, star_2} = images;
     return (
       <div className="individual_container">
           <div className="individual_container_left">
@@ -13,13 +13,13 @@ function IndividualBlock(props) {
               <div className="individual_container_left_header">Индивидуальные</div>
               <div className="individual_container_left_title">Мы составим индивидуальный тур под Ваши нужды за 30 минут</div>
               <div className="individual_container_left_description">У вас есть индивидуальный запрос на экскурсию по Санкт-Петербургу и пригородам?Напишите нам Ваши предложения и мы составим маршрут,программу и просчитаем стоимостьв течении 30 минут.</div>
-              <ButtonSection onClick={onClick} lock active width={180} height={50} title="ПРОСЧИТАТЬ" />
+              <ButtonSection onClick={onClick} mt={13} lock active width={179} height={56} title="ПРОСЧИТАТЬ" />
           </div>
           <div className="individual_container_right">
             <div className="info_container">
-            <img className="info_background" src={churches_1} alt="churches_1" width="100%" height="100%" />
+            <img className="info_background" src={individual_card} alt="churches_1" width="100%" height="100%" />
             </div>
-            <div className="container_all">
+            {/* <div className="container_all">
               <div className="info_container_up">
                 <img src={star_2} alt="profile" width="25" height="25" />
                 <div className="info_container_title">Автомобильная</div>
@@ -39,7 +39,7 @@ function IndividualBlock(props) {
                 <div className="all_txt">Включено</div>
               </div>
               <img className="info_vip" src={vip} alt="profile" width="180" height="155" />
-            </div>
+            </div> */}
           </div>
       </div>
     );

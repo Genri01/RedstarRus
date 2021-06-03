@@ -3,19 +3,31 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding-bottom: 10%;
+  padding-bottom: 67px;
   padding-top: 8%;
   padding-left: 8%;
 }
 
 .book_header {
-  font-size: 3em;
+  font-size: 48px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: 0.96px;
+  color: #212629;
   font-family: 'Montserrat-Bold'
 }
 
 .book_description {
   width: 80%;
-  font-size: 1em;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0.84px;
+  color: #131415;
   font-family: 'Montserrat-Regular';
   margin: 20px 0px;
   line-height: 25px;

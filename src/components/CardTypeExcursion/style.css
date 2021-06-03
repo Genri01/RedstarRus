@@ -1,12 +1,12 @@
 
 .cards_container{
-  height: 270px;
+  width: 344px;
+  height: 300px;
+  margin: 0 24px 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 310px;
   position: relative;
-  margin: 0px 10px;
   cursor: pointer;
 }
 
@@ -20,11 +20,12 @@
   position: absolute;
   bottom: 5%;
   left: 10%;
-  font-size: 25px;
-  font-weight: 700;
-  -webkit-user-select: none;
-  user-select: none;
-  /* font-family: 'Circe'; */
-  z-index: 2;
-  color: white;
+  font-family: 'Montserrat-Bold';
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 1px;
+  color: #ffffff;
 }

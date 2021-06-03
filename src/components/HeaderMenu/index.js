@@ -16,11 +16,12 @@ function HeaderMenu(props) {
     dark = "dark_header"
     text_dark = "dark_txt"
     img_logo = logo_footer;
+    console.log()
   }
     return (
       <div className={`header_container ${dark}`}>
         <div className="header_menu_logo_container">
-        <Link to="/"><img style={{cursor:'pointer'}} src={img_logo} alt="logo" width="190" height="85" /></Link>
+        <Link to="/"><img style={{cursor:'pointer'}} src={img_logo} alt="logo" width="160" height="56" /></Link>
         </div>
         <div className="header_menu_title_container">
         <Link to="/"><div className={`menu_title ${text_dark}`} onClick={(e)=>{window.scrollTo(0,2330)}}>Пешеходные</div></Link>
@@ -32,5 +33,5 @@ function HeaderMenu(props) {
       </div>
     );
 }
-
+ 
 export default HeaderMenu;

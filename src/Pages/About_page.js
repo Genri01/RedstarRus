@@ -96,11 +96,11 @@ class About_page extends React.Component {
             </div>
           </div>
           <div className="container_social">
-              <div className="contacts_title_description">Социальные сети</div>
-              <div>
-              <img style={{cursor: 'pointer'}} onClick={(e)=>{ document.location.href = "http://www.instagram.com";}}  src={instagram} alt="instagram" width="40" height="40" />
-              <img style={{cursor: 'pointer'}} onClick={(e)=>{ document.location.href = "https://www.facebook.com/";}} src={facebook} alt="facebook" width="40" height="40" />
-              </div>
+            <div className="contacts_title_description">Социальные сети</div>
+            <div>
+            <img style={{cursor: 'pointer'}} onClick={(e)=>{ document.location.href = "http://www.instagram.com";}}  src={instagram} alt="instagram" width="28" height="28" />
+            <img style={{cursor: 'pointer'}} onClick={(e)=>{ document.location.href = "https://www.facebook.com/";}} src={facebook} alt="facebook" width="28" height="28" />
+            </div>
           </div>
           </div>
         </div>
@@ -110,10 +110,12 @@ class About_page extends React.Component {
     }
 
     return (
-      <div className="App">
-        <HeaderMenu />
-          {content}
-        <Footer />
+      <div  style={{backgroundColor:'#f9f9f9'}} className="App">
+        <div className="content_app_container">
+          <HeaderMenu />
+            {content}
+          <Footer />
+        </div>
       </div>
     );
   }

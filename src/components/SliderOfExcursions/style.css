@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   width: 50%;
-  height: 700px;
+  height: 712px;
 }
 
 .slider_container {
@@ -44,7 +44,13 @@
 }
 
 .slider_container_title {
-  font-size: 3em;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.7px;
+  color: #212629;
   padding-left: 3%;
   padding-right: 3%;
   font-family:'Montserrat-Bold';

@@ -18,7 +18,7 @@ class App extends React.Component {
     this.toogleShow = this.toogle.bind(this)
 }
 toogle(e) {
-  const {show} = this.state;
+  const { show } = this.state;
 
   window.scrollTo(0,0);
     this.setState({
@@ -27,7 +27,7 @@ toogle(e) {
   }
 
   render() {
-    const {show } = this.state;
+    const { show } = this.state;
     const { toogleShow } = this;
     return (
       <Router>

@@ -11,7 +11,7 @@ function AboutBlock(props) {
             info.map((el,id)=>(
               <div key={id+'58yh'} className="about_card">
                 <div className="about_title">{el.description}</div>
-                <img src={el.img} alt="about_img" width="120" height="120" />
+                <img src={el.img} alt="about_img" width="82" height="82" />
               </div>
             ))
           }

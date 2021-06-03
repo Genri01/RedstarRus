@@ -38,8 +38,10 @@ import arrow_right from './images/arrow_right.svg';
 import logo_footer from './images/logo_footer.svg';
 import call_up from './images/call_up.png';
 import call_down from './images/call_down.png';
+import individual_card from './images/individual_card.png';
 
 const images = {
+  individual_card,
   star_filled,
   arrow_left,
   arrow_right,

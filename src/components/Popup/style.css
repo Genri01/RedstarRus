@@ -39,6 +39,8 @@
   flex-direction: column;
   background-color: #fafafa;
   border-radius: 30px;
+  position: absolute;
+  top: 50px;
 }
 
 .container_btn {

@@ -2,22 +2,27 @@
 .types_container {
   display: flex;
   flex-direction: column;
-  width: 90%;
-  height: 550px;
-  padding: 40px 5%;
+  width: 100%;
+  padding: 120px 0px 168px 0px;
 }
 
 .types_container_cards {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .types_container_title {
-  font-size: 3em;
-  font-weight: 800;
+  /* width: 466px; */
+  height: 60px;
+  margin: 0 614px 32px 130px;
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  color: #212629;
   font-family: 'Montserrat-Bold';
-  margin-top: 80px;
-  margin-bottom: 30px;
-  padding-left: 5%;
+
 }

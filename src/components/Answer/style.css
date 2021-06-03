@@ -14,14 +14,29 @@
 }
 
 .answer_title {
-  font-size: 1.5em;
+  /* margin: 60px 179px 60px 42px; */
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: 1.45px;
+  color: #212629;
   font-family: 'Montserrat-Bold';
 }
 
 .answer_description {
-  font-size: 1em;
+
+  margin: 0 533px 49px 0;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0.84px;
+  color: #363636;
   font-family: 'Montserrat-Regular';
-  padding-left: 45px;
 }
 
 .on_crooss {

@@ -37,24 +37,26 @@ function Product_page (props) {
     }
   return (
     <div className="App">
-      <HeaderMenu />
-      <TitleBlock
-        title = {header}
-        subtitle = {`${type} экскурсия`}
-        header = ""
-        subheader = ""
-        img_head = {img}
-        description = ""
-        h={500}
-        hb={1}
-      />
-      <AboutBlock header="О мироприятии" info={info} />
-      <BookBlock onClick={toogleShow} header="Впечатление" description={description} />
-      <RoteBlock header="Маршрут" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et" routes={routes} />
-      <SliderOfExcursions type="Подобные экскурсии" slide={slide} />
-      <IndividualBlock onClick={toogleShow} />
-      <Popup show={show} onClick={toogleShow} />
-      <Footer />
+      <div className="content_app_container">
+        <HeaderMenu />
+        <TitleBlock
+          title = {header}
+          subtitle = {`${type} экскурсия`}
+          header = ""
+          subheader = ""
+          img_head = {img}
+          description = ""
+          h={741}
+          // hb={1}
+        />
+        <AboutBlock header="О мироприятии" info={info} />
+        <BookBlock onClick={toogleShow} header="Впечатление" description={description} />
+        <RoteBlock header="Маршрут" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et" routes={routes} />
+        <SliderOfExcursions type="Подобные экскурсии" slide={slide} />
+        <IndividualBlock onClick={toogleShow} />
+        <Popup show={show} onClick={toogleShow} />
+        <Footer />
+      </div>
     </div>
 );  
 }

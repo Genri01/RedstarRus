@@ -1,8 +1,20 @@
-.police_header {    
+.content_app_container {
+  width: 1360px;
+  background-color: white;
+  position: relative;
+}
 
-  padding-bottom: 3%;
-  font-size: 3em;
+.police_header {    
+  width: 771px;
+  height: 60px;
   font-family: 'Montserrat-Bold';
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 2.4px;
+  color: #212629;
 }
 
 .police_title {    
@@ -13,8 +25,14 @@
 }
 
 .police_description {    
-  font-size: 1em;
   font-family: 'Montserrat-Regular';
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0.84px;
+  color: #212629;
 }
 
 .content_container {    
@@ -28,7 +46,7 @@
 .about_page_container {
   display: flex;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   flex-direction: row;
   padding-top: 200px;
 }
@@ -81,7 +99,13 @@
 }
 
 .about_header_cards {
-  font-size: 2em;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: 1.93px;
+  color: #212629;
   font-family: 'Montserrat-Bold';
   padding: 10px 0px;
 }
@@ -93,49 +117,96 @@
 }
 
 .title_about {
-  font-size: 3em;
   font-family: 'Montserrat-Bold';
-  padding: 40px 0px;
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  color: #212629;
 }
 
 .title_contact {
-  font-size: 1em;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: 0.9px;
+  color: #212629;
   padding: 10px 0px;
   cursor: pointer;
 }
 
 .about_description_cards {
-  font-size: 1em;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0.84px;
+  color: #212629;
   font-family: 'Montserrat-Regular';
   padding: 10px 0px;
 }
 
 .about_title_cards {
-  font-size: 1em;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.67;
+  letter-spacing: 0.84px;
+  color: #212629;
   font-family: 'Montserrat-SemiBold';
   padding: 10px 0px;
 }
 
 .contacts_header {
-  font-size: 2em;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: 1.93px;
+  color: #212629;
   font-family: 'Montserrat-Bold';
   padding: 14px 0px;
 }
 
 .contacts_title {
-  font-size: 1.3em;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: 1.09px;
+  color: #212629;
   font-family: 'Montserrat-Bold';
   padding: 10px 0px;
 }
 
 .contacts_title_description {
-  font-size: 1em;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.8;
+  letter-spacing: 0.84px;
+  color: #212629;
   font-family: 'Montserrat-SemiBold';
-  padding: 10px 0px;
+  padding: 0px 10px 10px 0px;
 }
 
 .contacts_description{
-  font-size: 1em;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.8;
+  letter-spacing: 0.84px;
+  color: #212629;
   font-family: 'Montserrat-Regular';
-  padding: 10px 0px;
+  padding: 0px 10px 10px 0px;
 }

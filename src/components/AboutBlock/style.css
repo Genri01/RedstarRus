@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 300px;
+  height: 194px;
   padding-left: 8%;
   padding-top: 2%;
 }
@@ -12,8 +12,9 @@
   display: flex;
   flex-direction: row;
   width: 82%;
-  justify-content:center;
+  justify-content:flex-start;
   margin-top: 50px;
+  margin-left: -30px;
 }
 
 
@@ -31,7 +32,13 @@ font-family: 'Montserrat-Bold';
 }
 
 .about_title { 
-  font-size: 2em;
+  font-size: 26px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #555555;
   font-family: 'Montserrat-Regular';
-  padding-bottom: 40px;
 }

@@ -43,7 +43,13 @@
 
 .txt_li {
   display: flex;
-  font-size: 1em;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0.84px;
+  color: #212629;
   font-family: 'Montserrat-Regular';
   align-items: center;
   justify-content: center;
@@ -51,7 +57,13 @@
 }
 
 .header_li {
-  font-size: 1.5em;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: 1.45px;
+  color: #212629;
   font-family: 'Montserrat-Bold';
   padding: 10px 0px;
 }

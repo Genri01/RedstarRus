@@ -24,7 +24,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding-left: 12%;
+  /* padding-left: 12%; */
   background-color: #363636;
   align-items: center;
   justify-content: center;
@@ -32,17 +32,27 @@
 
 .visa_container img {
   margin-left: 20px;
+  /* padding: 10px 0px; */
 }
 
 .coperait_txt {
   user-select: none;
   color: #999999;
+  padding: 20px 0px;
 }
 
 .footer_txt {
   cursor: pointer;
   user-select: none;
-  padding: 10px 0px;
+  margin: 0 36px 18px 0;
+  font-family: 'Montserrat-Bold';
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.79px;
+  color: #9f9f9f;
   color: #999999;
 }
 
@@ -62,4 +72,12 @@
 
   .footer_desription_section_right {
     align-self: flex-start;
+  }
+
+  .visa_container {
+    margin-bottom: 60px;
+  }
+
+  .footer_social_section {
+    margin-left: 60px;
   }

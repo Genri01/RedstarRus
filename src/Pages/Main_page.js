@@ -53,26 +53,28 @@ toogle(e) {
     }
     return (
         <div className="App">
-          <HeaderMenu />
-          <TitleBlock
-            title = "Лучшие экскурсии Питера"
-            subtitle = "Мы на рынке туризма с 1989 года"
-            header = "Экскурсии"
-            subheader = "по Санкт-Петербургу и пригороду"
-            img_head = {header}
-            description = "Мы предоставляем пешеходные, автомобильные, а так же авторские экскурсии по Санкт-Петербургу и пригородам.Мы предоставляем пешеходные,автомобильные,а так же авторские экскурсии по Санкт-Петербургу и пригородам"
-            btn
-          />
-          <TypesOfExcursions title="Виды Экскурсий" cards={cards}/>
-          <SliderOfExcursions number={1} type="Пешеходные" slide={slide} dark />
-          <SliderOfExcursions number={2} type="Автомобильные" slide={slide} />
-          <SliderOfExcursions number={3} type="Авторские" slide={slide} dark />
-          <IndividualBlock onClick={toogleShow} />
-          <WhyBlock header="Почему стоит выбрать нас?" blocks={blocks} />
-          <AnswerBlock header="Вопросы и ответы" answers={answers} />
-          <Footer />
-          <Popup show={show} onClick={toogleShow} />
-          <CallBtn show={show} onClick={toogleShow} />
+          <div className="content_app_container">
+            <HeaderMenu />
+            <TitleBlock
+              title = "Лучшие экскурсии Питера"
+              subtitle = "Мы на рынке туризма с 1989 года"
+              header = "Экскурсии"
+              subheader = "по Санкт-Петербургу и пригороду"
+              img_head = {header}
+              description = "Мы предоставляем пешеходные, автомобильные, а так же авторские экскурсии по Санкт-Петербургу и пригородам.Мы предоставляем пешеходные,автомобильные,а так же авторские экскурсии по Санкт-Петербургу и пригородам"
+              btn
+            />
+            <TypesOfExcursions title="Виды Экскурсий" cards={cards}/>
+            <SliderOfExcursions number={1} type="Пешеходные" slide={slide} dark />
+            <SliderOfExcursions number={2} type="Автомобильные" slide={slide} />
+            <SliderOfExcursions number={3} type="Авторские" slide={slide} dark />
+            <IndividualBlock onClick={toogleShow} />
+            <WhyBlock header="Почему стоит выбрать нас?" blocks={blocks} />
+            <AnswerBlock header="Вопросы и ответы" answers={answers} />
+            <Footer />
+            <Popup show={show} onClick={toogleShow} />
+            <CallBtn show={show} onClick={toogleShow} />
+          </div>
         </div>
     );
   }

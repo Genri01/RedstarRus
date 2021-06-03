@@ -4,21 +4,32 @@
   flex-direction: column;
   background-color: #f8f8f8;
   width: 100%;
-  height: 800px;
+  height: 850px;
   padding-top: 8%;
   border-radius: 60px;
 }
 
 .routes_container_header {
-  font-size: 3em;
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  color: #212629;
   font-family: 'Montserrat-Bold';
   padding-left: 8%;
 }
 
 .routes_container_title {
-  font-size: 1em;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0.84px;
+  color: #363636;
   font-family: 'Montserrat-Regular';
-  line-height: 25px;
   padding-left: 8%;
 }
 
@@ -36,7 +47,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  margin-top: 25px;
+  margin-top: 32px;
 }
 
 .route_card_container{
@@ -57,12 +68,24 @@
 }
 
 .route_time {
-  font-size: 1.5em;
+  font-size: 22px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: 1.33px;
+  color: #212629;
   font-family: 'Montserrat-SemiBold';
 }
 
 .route_description {
-  font-size: 1em;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0.84px;
+  color: #363636;
   font-family: 'Montserrat-Regular';
   padding-bottom: 23px;
 }
