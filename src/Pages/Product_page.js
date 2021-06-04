@@ -56,6 +56,7 @@ function Product_page (props) {
         <IndividualBlock onClick={toogleShow} />
         <Popup show={show} onClick={toogleShow} />
         <Footer />
+        <div className="footer_cap"></div>
       </div>
     </div>
 );  

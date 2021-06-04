@@ -74,6 +74,7 @@ toogle(e) {
             <Footer />
             <Popup show={show} onClick={toogleShow} />
             <CallBtn show={show} onClick={toogleShow} />
+            <div className="footer_cap"></div>
           </div>
         </div>
     );

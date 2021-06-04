@@ -16,7 +16,6 @@ function HeaderMenu(props) {
     dark = "dark_header"
     text_dark = "dark_txt"
     img_logo = logo_footer;
-    console.log()
   }
     return (
       <div className={`header_container ${dark}`}>
@@ -24,10 +23,10 @@ function HeaderMenu(props) {
         <Link to="/"><img style={{cursor:'pointer'}} src={img_logo} alt="logo" width="160" height="56" /></Link>
         </div>
         <div className="header_menu_title_container">
-        <Link to="/"><div className={`menu_title ${text_dark}`} onClick={(e)=>{window.scrollTo(0,2330)}}>Пешеходные</div></Link>
-        <Link to="/"><div className={`menu_title ${text_dark}`} onClick={(e)=>{window.scrollTo(0,3180)}}>Автомобильные</div></Link>
-        <Link to="/"><div className={`menu_title ${text_dark}`} onClick={(e)=>{window.scrollTo(0,4030)}}>Авторские</div></Link>
-        <Link to="/"><div className={`menu_title ${text_dark}`} onClick={(e)=>{window.scrollTo(0,6480)}}>Вопрос/Ответ</div></Link>
+        <Link to="/"><div className={`menu_title ${text_dark}`} onClick={(e)=>{window.scrollTo(0,2000)}}>Пешеходные</div></Link>
+        <Link to="/"><div className={`menu_title ${text_dark}`} onClick={(e)=>{window.scrollTo(0,2850)}}>Автомобильные</div></Link>
+        <Link to="/"><div className={`menu_title ${text_dark}`} onClick={(e)=>{window.scrollTo(0,3680)}}>Авторские</div></Link>
+        <Link to="/"><div className={`menu_title ${text_dark}`} onClick={(e)=>{window.scrollTo(0,6000)}}>Вопрос/Ответ</div></Link>
           <Link to="/about"><div onClick={(e)=>{window.scrollTo(0,0)}} className={`menu_title ${text_dark}`}>О нас</div></Link>
         </div>
       </div>

@@ -53,7 +53,7 @@ class About_page extends React.Component {
                     <AboutCards key={id+'kjhf6'} li={el.li} img={el.img} title={el.title} />
                   ))
                 }
-                <ButtonSection cordinat={5000} link="/" proc mt={10} mb={10} ml={4} active title="К ЭКСКУРСИЯМ" width={200} height={50} cards={aboutcards} />
+                <ButtonSection cordinat={1200} link="/" proc mt={10} mb={10} ml={4} active title="К ЭКСКУРСИЯМ" width={200} height={50} cards={aboutcards} />
               </div>
             </div>
             <Popup show={show} onClick={toogleShow} />
@@ -111,10 +111,13 @@ class About_page extends React.Component {
 
     return (
       <div  style={{backgroundColor:'#f9f9f9'}} className="App">
+        <div className="header_cap"></div>
+
         <div className="content_app_container">
           <HeaderMenu />
             {content}
           <Footer />
+          <div className="footer_cap"></div>
         </div>
       </div>
     );
