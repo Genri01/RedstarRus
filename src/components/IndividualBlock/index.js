@@ -7,7 +7,7 @@ function IndividualBlock(props) {
   const { onClick } = props
   const { individual, individual_card , vip, boat, optional, disabled, lunch, star_2} = images;
     return (
-      <div className="individual_container">
+      <div id="individual" className="individual_container">
           <div className="individual_container_left">
               <img src={individual} alt="profile" width="210" height="160" />
               <div className="individual_container_left_header">Индивидуальные</div>

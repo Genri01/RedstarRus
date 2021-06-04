@@ -53,7 +53,7 @@ class About_page extends React.Component {
                     <AboutCards key={id+'kjhf6'} li={el.li} img={el.img} title={el.title} />
                   ))
                 }
-                <ButtonSection cordinat={1200} link="/" proc mt={10} mb={10} ml={4} active title="К ЭКСКУРСИЯМ" width={200} height={50} cards={aboutcards} />
+                <ButtonSection cordinat link="/#excursion" proc mt={10} mb={10} ml={4} active title="К ЭКСКУРСИЯМ" width={200} height={50} cards={aboutcards} />
               </div>
             </div>
             <Popup show={show} onClick={toogleShow} />

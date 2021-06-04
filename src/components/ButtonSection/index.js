@@ -1,7 +1,8 @@
 import React from 'react';
-import {
-  Link
-} from "react-router-dom";
+// import {
+//   Link
+// } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link'
 import './style.css';
 
 function ButtonSection(props) {
@@ -20,7 +21,7 @@ function ButtonSection(props) {
     lock,
     cancel,
     fs,
-    cordinat
+    cordinat,
   } = props;
   let lockstyle = 0;
   let obj = {}
@@ -48,7 +49,7 @@ function ButtonSection(props) {
   } else {
 
     btn.push(
-    <Link key="2"  to={link}><div style={obj} className={`${active ? "btn_active" : 'btn_container'}`} onClick={lock ? (e)=>{onClick()} : ()=>{cordinat ? window.scrollTo(0,cordinat) : window.scrollTo(0,0)}}>
+    <Link key="2"  to={link}><div style={obj} className={`${active ? "btn_active" : 'btn_container'}`} onClick={lock ? (e)=>{onClick()} : () => {cordinat ? console.log() : window.scrollTo(0,0)}}>
       <div  style={txt} className="btn_title">{title}</div>
     </div></Link>
     )

@@ -19,6 +19,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-color: #fafafa;
 }
 
 .main_container_title_block_header {
@@ -99,7 +100,8 @@
 
 .main_container_title_block {
   padding: 89px 185px 69px 140px;
-  border-radius: 28px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
   background-color: #fafafa;
   display: flex;
   flex-direction: column;
@@ -113,9 +115,30 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: 2;
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
 }
 
 .none_padding{
-  padding: 37px 0px 36px 139px;
+  padding: 37px 0px 36px 8%;
+  /* padding-left: 8%; */
+}
+
+
+.text_container_fix {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+}
+
+.img_cap {
+  height: 140px;
+  width: 100%;
+  background-color: #fafafa;
+  position: absolute;
+  top: 734px;
+  left: 0px;
+  z-index: 1;
 }

@@ -16,11 +16,18 @@ function TitleBlock(props) {
   } = props;
     return (
       <section style={{height: h ? `${h}px`: ''}}className="main_container">
-        <div style={{backgroundImage:`url(${img_head})`}} className="main_container_img">
-          <img className="main_img"  alt="main_img" width="100%" height="100%" />
-          <div className="main_container_title_block_header">{header}</div>
-          <div className="main_container_title_block_subheader">{subheader}</div>
+        {/* <div style={{backgroundImage:`url(${img_head})`}} className="main_container_img"> */}
+        <div className="main_container_img">
+          <img className="main_img" src={img_head}  alt="main_img" width="100%" height="100%" />
+
+          <div className="img_cap"></div>
+          <div className="text_container_fix">
+            <div className="main_container_title_block_header">{header}</div>
+            <div className="main_container_title_block_subheader">{subheader}</div>
+          </div>
+   
         </div>
+        
         <div style={{paddingBottom: hb ? `${hb}px`: ''}} className={`main_container_title_block ${h ? 'none_padding' : ''}`}>
           <div className="main_container_title">
             {title}

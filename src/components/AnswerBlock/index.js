@@ -6,7 +6,7 @@ function AnswerBlock(props) {
   const { header,answers } = props;
   let st = {}
     return (
-      <div className="answerblock_container">
+      <div id="answer" className="answerblock_container">
         <div className="answerblock_container_header">{header}</div>
         {
           answers.map((el,id) => ( 

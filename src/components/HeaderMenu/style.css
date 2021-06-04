@@ -9,7 +9,10 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 4;
+}
+.gradient_header {
+  background: linear-gradient(to top, #e2e1db14, #ffffff);
 }
 
 .header_menu_logo_container {

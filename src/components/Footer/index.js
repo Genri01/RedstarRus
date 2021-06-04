@@ -1,7 +1,8 @@
 import React from 'react';
-import {
-  Link
-} from "react-router-dom";
+// import {
+//   Link
+// } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link'
 import images from '../../assets/images';
 import './style.css';
 
@@ -12,19 +13,19 @@ function Footer(props) {
         <div className="footer_up">
           <div className="footer_logo_section">
             <div className="footer_menu_logo_container">
-            <Link to="/"><img src={logo_footer} alt="logo" width="159" height="71" /></Link>
+            <Link to={"/"}><img src={logo_footer} alt="logo" width="159" height="71" /></Link>
             </div>
           </div>
           <div className="footer_desription_section_left">
-          <Link to="/"><div className="footer_txt" onClick={(e)=>{window.scrollTo(0,2330)}}>Пешеходные</div></Link>
-          <Link to="/"><div className="footer_txt" onClick={(e)=>{window.scrollTo(0,3180)}}>Автомобильные</div></Link>
-          <Link to="/"><div className="footer_txt" onClick={(e)=>{window.scrollTo(0,4030)}}>Авторские</div></Link>
-          <Link to="/"><div className="footer_txt" onClick={(e)=>{window.scrollTo(0,4880)}}>Индивидуальные</div></Link>
+          <Link to={"/#walk"}><div className="footer_txt" >Пешеходные</div></Link>
+          <Link to={"/#auto"}><div className="footer_txt" >Автомобильные</div></Link>
+          <Link to={"/#author"}><div className="footer_txt" >Авторские</div></Link>
+          <Link to={"/#individual"}><div className="footer_txt">Индивидуальные</div></Link>
           </div>
           <div className="footer_desription_section_right">
-          <Link to="/"><div className="footer_txt" onClick={(e)=>{window.scrollTo(0,6480)}}>Вопросы и ответы</div></Link>
-            <Link to="/about"><div className="footer_txt">О нас</div></Link>
-            <Link to="/police"><div className="footer_txt">Политика конфидециальности</div></Link>
+          <Link to={"/#answer"}><div className="footer_txt">Вопросы и ответы</div></Link>
+            <Link to={"/about"}><div className="footer_txt">О нас</div></Link>
+            <Link to={"/police"}><div className="footer_txt">Политика конфидециальности</div></Link>
           </div>
           <div className="footer_social_section">
             <div className="social_container">

@@ -65,9 +65,9 @@ toogle(e) {
               btn
             />
             <TypesOfExcursions title="Виды Экскурсий" cards={cards}/>
-            <SliderOfExcursions number={1} type="Пешеходные" slide={slide} dark />
-            <SliderOfExcursions number={2} type="Автомобильные" slide={slide} />
-            <SliderOfExcursions number={3} type="Авторские" slide={slide} dark />
+            <SliderOfExcursions id={'walk'} number={1} type="Пешеходные" slide={slide} dark />
+            <SliderOfExcursions id={'auto'} number={2} type="Автомобильные" slide={slide} />
+            <SliderOfExcursions id={'author'} number={3} type="Авторские" slide={slide} dark />
             <IndividualBlock onClick={toogleShow} />
             <WhyBlock header="Почему стоит выбрать нас?" blocks={blocks} />
             <AnswerBlock header="Вопросы и ответы" answers={answers} />
