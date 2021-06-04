@@ -134,11 +134,11 @@
 }
 
 .img_cap {
-  height: 140px;
+  height: 50px;
   width: 100%;
   background-color: #fafafa;
   position: absolute;
-  top: 734px;
+  top: 754px;
   left: 0px;
   z-index: 1;
 }

@@ -47,6 +47,7 @@ function Product_page (props) {
           img_head = {img}
           description = ""
           h={741}
+          ht={534}
           // hb={1}
         />
         <AboutBlock header="О мироприятии" info={info} />

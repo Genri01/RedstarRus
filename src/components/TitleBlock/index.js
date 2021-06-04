@@ -12,15 +12,15 @@ function TitleBlock(props) {
     description,
     btn,
     h,
-    hb
+    hb,
+    ht
   } = props;
     return (
-      <section style={{height: h ? `${h}px`: ''}}className="main_container">
+      <section style={{height: h ? `${h}px`: ''}} className="main_container">
         {/* <div style={{backgroundImage:`url(${img_head})`}} className="main_container_img"> */}
         <div className="main_container_img">
           <img className="main_img" src={img_head}  alt="main_img" width="100%" height="100%" />
-
-          <div className="img_cap"></div>
+          <div style={{top: ht ? `${ht}px`: ''}} className="img_cap"></div>
           <div className="text_container_fix">
             <div className="main_container_title_block_header">{header}</div>
             <div className="main_container_title_block_subheader">{subheader}</div>
