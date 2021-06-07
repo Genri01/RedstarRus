@@ -691,9 +691,9 @@ width: 100%;
 
   .main_container_title_block_subheader {
     width: 320px;
-    margin: 0px;
     padding-left: 15px;
     font-size: 13px;
+    margin-left: 512px;
   }
 
   .main_container_subtitle {
