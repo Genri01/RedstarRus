@@ -3,7 +3,10 @@
   background-color: white;
   position: relative;
 }
-
+#police_space {
+  padding-top: 154px;
+  padding-bottom: 107px;
+}
 .police_header {    
   width: 771px;
   height: 60px;

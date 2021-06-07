@@ -11,7 +11,7 @@ class Police_page extends React.Component {
          <div className="header_cap"></div>
         <div className="content_app_container">
             <HeaderMenu />
-              <div className="content_container">
+              <div id="police_space" className="content_container">
                 <div className="police_header">Политика конфидециальности</div>
                 <div className="police_title"> Классический текст Lorem Ipsum, используемый с XVI века</div>
                 <div className="police_description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
