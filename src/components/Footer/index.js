@@ -7,7 +7,7 @@ import images from '../../assets/images';
 import './style.css';
 
 function Footer(props) {
-  const { instagram, facebook, visa, mastercard,logo_footer } = images;
+  const { instagram, facebook, visa, mastercard,logo_footer, qr } = images;
     return (
       <div className="footer_container">
         <div className="footer_up">
@@ -29,8 +29,11 @@ function Footer(props) {
           </div>
           <div className="footer_social_section">
             <div className="social_container">
-              <img style={{cursor: 'pointer',margin: '0 24px 0 0'}} onClick={(e)=>{ document.location.href = "http://www.instagram.com";}}  src={instagram} alt="instagram" width="28" height="28" />
+              <img className="social_img" style={{cursor: 'pointer'}} onClick={(e)=>{ document.location.href = "http://www.instagram.com";}}  src={instagram} alt="instagram" width="28" height="28" />
               <img style={{cursor: 'pointer'}} onClick={(e)=>{ document.location.href = "https://www.facebook.com/";}} src={facebook} alt="facebook" width="28" height="28" />
+            </div>
+            <div className="qr">
+              <img src={qr} alt="qr" width="50" height="50" />
             </div>
           </div>
         </div>

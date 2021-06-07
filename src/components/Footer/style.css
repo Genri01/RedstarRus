@@ -13,7 +13,8 @@
 .footer_up {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  /* width: 100%; */
+  width: auto;
   /* height: 280px; */
   background-color: #363636;
   align-items: center;
@@ -83,4 +84,13 @@
 
   .footer_social_section {
     margin-left: 60px;
+  }
+
+  .footer_logo_section {
+    padding-right: 100px;
+  }
+  .qr {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
   }

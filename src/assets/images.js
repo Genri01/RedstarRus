@@ -39,6 +39,7 @@ import logo_footer from './images/logo_footer.svg';
 import call_up from './images/call_up.png';
 import call_down from './images/call_down.png';
 import individual_card from './images/individual_card.png';
+import qr from './images/qr.png';
 
 const images = {
   individual_card,
@@ -82,6 +83,7 @@ const images = {
   image_path,
   call_up,
   call_down,
+  qr
 }
 
 export default images;

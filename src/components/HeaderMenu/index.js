@@ -11,10 +11,13 @@ function HeaderMenu(props) {
   let text_dark = '';
   let gradient = '';
   let img_logo = logo;
+  let style_about = {}
   if(url === '/about' || url === '/police') {
     dark = "dark_header"
     text_dark = "dark_txt"
     img_logo = logo_footer;
+    style_about={ color:'#fff'}
+
   } else {
      gradient = 'gradient_header';
   }
@@ -28,7 +31,7 @@ function HeaderMenu(props) {
         <Link to={"/#auto"}><div className={`menu_title ${text_dark}`} >Автомобильные</div></Link>
         <Link to={"/#author"}><div className={`menu_title ${text_dark}`} >Авторские</div></Link>
         <Link to={"/#answer"}><div className={`menu_title ${text_dark}`} >Вопрос/Ответ</div></Link>
-          <Link to="/about"><div onClick={(e)=>{window.scrollTo(0,0)}} className={`menu_title ${text_dark}`}>О нас</div></Link>
+          <Link to="/about"><div style={style_about} onClick={(e)=>{window.scrollTo(0,0)}} className={`menu_title ${text_dark}`}>О нас</div></Link>
         </div>
       </div>
     );

@@ -18,7 +18,7 @@ class About_page extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-        active_elem: 'company'
+        active_elem: 'company',
     }
     this.toogle = this.toogleMenu.bind(this)
   }
@@ -63,7 +63,7 @@ class About_page extends React.Component {
       content.push(
         <div key="39" className="about_page_container">
         <div className="about_page_container_left">
-          <div className="title_about">О Нас</div>
+          <div className="title_about" style={{ color: state.active_elem_header === 'about' ? '#fff' : 'Montserrat-Regular'}}>О Нас</div>
           <div data-id="company" style={{ fontFamily: state.active_elem === 'company' ? 'Montserrat-Bold' : 'Montserrat-Regular'}} className="title_company" onClick={e=>toogle(e)}>О компании</div>
           <div data-id="contacts" style={{ fontFamily: state.active_elem === 'contacts' ? 'Montserrat-Bold' : 'Montserrat-Regular'}} className="title_contact" onClick={e=>toogle(e)}>Контакты</div>
         </div>

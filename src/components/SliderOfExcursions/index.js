@@ -78,7 +78,7 @@ moveRight() {
             rotate: 5,
             stretch: 0,
             depth: 300,
-            modifier: 2,
+            modifier: 3,
             slideShadows: false
           }}
           className={`mySwiper_${number}`}
