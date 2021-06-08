@@ -3436,6 +3436,7 @@ width: 100%;
 }
 
 @media (min-device-width: 370px) and (min-device-height: 800px) and (max-device-height: 820px) {
+  
   .social_img {
     margin: 0px;
   }
@@ -3966,7 +3967,7 @@ width: 100%;
 
   .dark_header {
     background-color: #363636 !important;
-    width: 320px !important;
+    width: 550px !important;
     padding-left: 0px !important;
   }
 
