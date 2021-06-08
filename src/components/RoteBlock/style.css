@@ -43,9 +43,10 @@
 }
 
 .route_card{
-  /* height: 100px; */
-  display: -webkit-flex;
-  flex: 1;
+  height: 100vh !important;
+  width: 100%;
+  display: flex;
+  /* flex: 1; */
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
