@@ -5776,6 +5776,7 @@ width: 100%;
 }
 
 @media (min-device-width: 320px) and (max-device-width: 350px) {
+  
 
   .social_img {
     margin: 0px;
@@ -6354,8 +6355,8 @@ width: 100%;
   }
 
   .dark_header .header_menu_title_container {
-    width: 320px !important;
-    padding-left: 0px !important;
+    width: 510px !important;
+    padding-left: 4px !important;
     margin-left: 0px;
   }
  .header_menu_title_container {
