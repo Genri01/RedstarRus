@@ -45,7 +45,7 @@
 .route_card{
   height: 100px;
   display: flex;
-  flex-wrap: wrap;
+  flex: 1;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
@@ -64,7 +64,7 @@
 .route_txt_container{
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex: 1;
   /* align-items: center; */
   /* justify-content: flex-end; */
   width: 100%;
