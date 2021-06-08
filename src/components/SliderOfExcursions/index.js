@@ -80,7 +80,7 @@ moveRight() {
             stretch: 0,
             depth: 300,
             modifier: 3,
-            slideShadows: false
+            slideShadows: false,
           }}
           className={`mySwiper_${number}`}
         >

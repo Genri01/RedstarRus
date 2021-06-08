@@ -1087,7 +1087,7 @@ width: 100%;
 }
 }
 
-@media (min-device-width: 414px) and (min-device-height:733px) and (max-device-height:736px) {
+@media (min-device-width: 414px) and (min-device-height:733px) and (max-device-height:740px) {
   .social_img {
     margin: 0px;
   }
@@ -2854,7 +2854,7 @@ width: 100%;
   }
 }
 
-@media (min-device-width: 375px) and (min-device-height: 660px) and (max-device-height: 667px) {
+@media (min-device-width: 375px) and (min-device-height: 660px) and (max-device-height: 670px) {
   .social_img {
     margin: 0px;
   }
