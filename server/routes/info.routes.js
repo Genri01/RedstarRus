@@ -4,6 +4,7 @@ const infoRouter = Router()
 
 infoRouter.post('/sendMail',(req,res) => {
   const { formForgot } = req.body
+  
   if(formForgot !== undefined) {
     sendmail({
       from: `${formForgot}`,
