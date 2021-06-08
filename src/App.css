@@ -1662,13 +1662,13 @@ width: 100%;
     padding-left: 0px !important;
     margin-left: 10px;
   } */
- .header_menu_title_container {
+ /* .header_menu_title_container {
     width: 380px !important;
     padding-left: 0px !important;
     margin-left: 422px;
-  }
+  } */
   .dark_header .header_menu_title_container {
-    width: 380px !important;
+    width: 610px !important;
     padding-left: 0px !important;
     margin-left: 30px;
 }
@@ -4599,13 +4599,13 @@ width: 100%;
   }
 
   .dark_header .header_menu_title_container {
-    width: 380px !important;
-    padding-left: 0px !important;
+    width: 540px !important;
+    padding-left: 11px !important;
     margin-left: 0px;
   }
  .header_menu_title_container {
-    width: 380px !important;
-    padding-left: 0px !important;
+  width: 540px !important;
+  padding-left: 11px !important;
     margin-left: 422px;
   }
 }
