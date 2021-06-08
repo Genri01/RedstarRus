@@ -37,7 +37,7 @@
   display: -webkit-flex;
   flex-direction: column;
   width: 100%;
-  flex: 1;
+  flex: 1 !important;
   align-items: flex-start;
   padding-left: 8%;
 }
