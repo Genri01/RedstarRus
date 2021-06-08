@@ -44,6 +44,7 @@
 
 .route_card{
   display: flex;
+  height: auto;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;

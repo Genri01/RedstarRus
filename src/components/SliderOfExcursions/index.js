@@ -73,6 +73,7 @@ moveRight() {
           }}
           effect={"coverflow"}
           grabCursor={true}
+          spaceBetween = {300}
           centeredSlides={true}
           coverflowEffect={{
             rotate: 5,
