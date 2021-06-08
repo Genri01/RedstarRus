@@ -89,7 +89,7 @@ class Popup extends React.Component {
     },
     body: JSON.stringify({ email, msg })
     };
-    fetch('http://ru.redstarbaltic.com:8080/api/sendMail', requestOptions)
+    fetch('https://ru.redstarbaltic.com:8081/api/sendMail', requestOptions)
     .then(response => {
       response.json();
       if(response.status === 200) {
