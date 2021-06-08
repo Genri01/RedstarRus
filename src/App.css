@@ -1086,7 +1086,7 @@ width: 100%;
   }
 }
 
-@media (min-width: 375px) and (min-height: 800px) and (max-height: 813px) {
+@media (min-width: 370px) and (min-height: 800px) and (max-height: 813px) and (min-resolution: 250dpi) {
   .social_img {
     margin: 0px;
   }
