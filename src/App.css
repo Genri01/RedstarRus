@@ -1086,7 +1086,11 @@ width: 100%;
   }
 }
 
-@media (min-width: 370px) and (min-height: 800px) and (max-height: 813px) and (min-resolution: 250dpi) {
+/* @media (min-width: 370px) and (min-height: 800px) and (max-height: 813px) and (min-resolution: 250dpi) { */
+  @media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
   .social_img {
     margin: 0px;
   }
