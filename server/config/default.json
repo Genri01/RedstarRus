@@ -1,0 +1,9 @@
+{
+  "Server": {
+    "dbConfig":  {
+      "development":{
+      }
+    },
+    "port": 4000
+  }
+}

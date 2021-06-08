@@ -1,0 +1,9 @@
+{
+  "Server": {
+    "dbConfig": {
+      "production": {
+      }
+    },
+    "port": 8080
+  }
+}
