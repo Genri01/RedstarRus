@@ -11,6 +11,7 @@ class Popup extends React.Component {
         msg: '',
         close: false,
         err: true,
+        loader: false
     }
     this.changeEmail = this.Email.bind(this)
     this.changeMsg= this.Msg.bind(this)
@@ -78,6 +79,9 @@ class Popup extends React.Component {
 
 
   senmailFetch(email,msg) {
+    this.setState({
+      loader: true
+    })
     const requestOptions = {
     method: 'POST',
     headers: { 
@@ -86,7 +90,24 @@ class Popup extends React.Component {
     body: JSON.stringify({ email, msg })
     };
     fetch('http://ru.redstarbaltic.com:8080/api/sendMail', requestOptions)
-    .then(response => response.json())
+    .then(response => {
+      response.json();
+      if(response.status === 200) {
+        this.setState({
+          loader: false,
+          msg: '',
+          email:'',
+        })
+      } else {
+        this.setState({
+          loader: false,
+          msg: 'ЧТО ТО ПОШЛО НЕ ТАК,ПОПРОБУЙТЕ ПОЗЖЕ!',
+          email:'',
+        })
+      }
+      console.log(response)
+    })
+
   }
 
 
@@ -95,7 +116,7 @@ class Popup extends React.Component {
   render() {
     const { show,onClick } = this.props;
     const { changeEmail, changeMsg, handleSubmit } = this;
-    const { msg,email,close,err } = this.state;
+    const { msg,email,close,err,loader } = this.state;
     const { cross } = image;
 
     return (
@@ -110,7 +131,10 @@ class Popup extends React.Component {
           <textarea name="msg" placeholder="Укажите как можно больше информации: дата экскурсии,наименование экскурсии,количество человек,пожелания..." className="popup_textarea" value={msg} onChange={changeMsg} />
           <div className="container_btn">
             <ButtonSection lock onClick={onClick} cancel mr={10} title="ОТМЕНИТЬ" width={200} height={54} fs={15} />
-            <input className={`input_submit ${err ? 'disable' : ''}`} disabled={err} type="submit" value="ОТПРАВИТЬ" />
+            {
+             loader ? <div className="loader_container"><div className="loader">Sending...</div></div> :  <input className={`input_submit ${err ? 'disable' : ''}`} disabled={err} type="submit" value="ОТПРАВИТЬ" />
+            }
+           
           </div>
         </form>
       </div>
