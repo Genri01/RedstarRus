@@ -16,7 +16,9 @@ import '../App.css';
 const { header } = images;
 const {
   cards,
-  slide,
+  sliderAuthor,
+  sliderWalk,
+  sliderAuto,
   blocks,
   answers,
 } = config;
@@ -65,9 +67,9 @@ toogle(e) {
               btn
             />
             <TypesOfExcursions title="Виды Экскурсий" cards={cards}/>
-            <SliderOfExcursions id={'walk'} number={1} type="Пешеходные" slide={slide} dark />
-            <SliderOfExcursions id={'auto'} number={2} type="Автомобильные" slide={slide} />
-            <SliderOfExcursions id={'author'} number={3} type="Авторские" slide={slide} dark />
+            <SliderOfExcursions id={'walk'} number={1} type="Пешеходные" slide={sliderWalk} dark />
+            <SliderOfExcursions id={'auto'} number={2} type="Автомобильные" slide={sliderAuto} />
+            <SliderOfExcursions id={'author'} number={3} type="Авторские" slide={sliderAuthor} dark />
             <IndividualBlock onClick={toogleShow} />
             <WhyBlock header="Почему стоит выбрать нас?" blocks={blocks} />
             <AnswerBlock header="Вопросы и ответы" answers={answers} />

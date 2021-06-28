@@ -13,28 +13,55 @@ import Popup from '../components/Popup/index';
 import '../App.css';
 
 const {
-  slide,
+  sliderAuthor,
+  sliderAuto,
+  sliderWalk,
   routes,
 } = config;
 
-
 function Product_page (props) {
-  let { id } = useParams();
+  let { id, category } = useParams();
+  let header = '', img = '', info = [], type ='', description = '';
   const { show, toogleShow } = props;
-  const { 
-    header,
-    img,
-    info,
-    type,
-    description
-  } = slide[id];
-      if(show) {
-      document.getElementsByTagName('html')[0].style.overflowX="hidden";
-      document.getElementsByTagName('html')[0].style.overflowY="hidden";
-    } else {
-      document.getElementsByTagName('html')[0].style.overflowX="hidden";
-      document.getElementsByTagName('html')[0].style.overflowY="auto";
-    }
+  switch (category) {
+    case 'walk':
+      header = sliderWalk[id].header;
+      img = sliderWalk[id].img;
+      info = sliderWalk[id].info;
+      type = sliderWalk[id].type;
+      description = sliderWalk[id].description;
+      break;
+    case 'auto':
+      header = sliderAuto[id].header;
+      img = sliderAuto[id].img;
+      info = sliderAuto[id].info;
+      type = sliderAuto[id].type;
+      description = sliderAuto[id].description;
+      break;
+    case 'author':
+      header = sliderAuthor[id].header;
+      img = sliderAuthor[id].img;
+      info = sliderAuthor[id].info;
+      type = sliderAuthor[id].type;
+      description = sliderAuthor[id].description;
+      break;
+  
+    default:
+      header = sliderAuto[id].header;
+      img = sliderAuto[id].img;
+      info = sliderAuto[id].info;
+      type = sliderAuto[id].type;
+      description = sliderAuto[id].description;
+      break;
+  }
+
+  if(show) {
+    document.getElementsByTagName('html')[0].style.overflowX="hidden";
+    document.getElementsByTagName('html')[0].style.overflowY="hidden";
+  } else {
+    document.getElementsByTagName('html')[0].style.overflowX="hidden";
+    document.getElementsByTagName('html')[0].style.overflowY="auto";
+  }
   return (
     <div className="App">
       <div className="content_app_container">
@@ -53,7 +80,7 @@ function Product_page (props) {
         <AboutBlock header="О мироприятии" info={info} />
         <BookBlock onClick={toogleShow} header="Впечатление" description={description} />
         <RoteBlock header="Маршрут" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et" routes={routes} />
-        <SliderOfExcursions type="Подобные экскурсии" slide={slide} />
+        <SliderOfExcursions type="Подобные экскурсии" slide={sliderAuto} />
         <IndividualBlock onClick={toogleShow} />
         <Popup show={show} onClick={toogleShow} />
         <Footer />

@@ -37,7 +37,67 @@ const cards = [
   },
 ]
 
-const slide = [
+const sliderWalk = [
+
+  {
+    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    type: "Пешеходная",
+    header:"Пушкинский Петербург",
+    img:walk,
+    btn_title:"А.С. ПУШКИН",
+    routes:["st.Pitersburg","tallin","Helsinki","Stockholm","Oslo"],
+    prise: 2050,
+    link:"walk/0",
+    info:[
+      {
+        img: hours,
+        description:"34 часа"
+      },
+      {
+        img: transfer,
+        description:"Трансфер"
+      },
+      {
+        img: transfer,
+        description:"Трансфер"
+      },
+      {
+        img: transfer,
+        description:"Трансфер"
+      },
+    ]
+  },
+  {
+    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    type: "Пешеходная",
+    header:"Пушкинский Петербург!!!!!!!!",
+    img:walk,
+    btn_title:"А.С. ПУШКИН",
+    routes:["st.Pitersburg","tallin","Helsinki","Stockholm","Oslo"],
+    prise: 2050,
+    link:"walk/1",
+    info:[
+      {
+        img: hours,
+        description:"34 часа"
+      },
+      {
+        img: transfer,
+        description:"Трансфер"
+      },
+      {
+        img: transfer,
+        description:"Трансфер"
+      },
+      {
+        img: transfer,
+        description:"Трансфер"
+      },
+    ]
+  }
+]
+
+const sliderAuto = [
   {
     description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     type: "Автомобильная",
@@ -65,44 +125,19 @@ const slide = [
         description:"Трансфер"
       },
     ]
-  },
+  }
+]
+
+const sliderAuthor = [
   {
     description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    type: "Автомобильная",
-    header:"Пушкинский Петербург",
-    img:walk,
-    btn_title:"А.С. ПУШКИН",
-    routes:["st.Pitersburg","tallin","Helsinki","Stockholm","Oslo"],
-    prise: 2050,
-    link:"auto/0",
-    info:[
-      {
-        img: hours,
-        description:"34 часа"
-      },
-      {
-        img: transfer,
-        description:"Трансфер"
-      },
-      {
-        img: transfer,
-        description:"Трансфер"
-      },
-      {
-        img: transfer,
-        description:"Трансфер"
-      },
-    ]
-  },
-  {
-    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    type: "Автомобильная",
+    type: "Авторская",
     header:"Пушкинский Петербург",
     img:header,
     btn_title:"А.С. ПУШКИН",
     routes:["st.Pitersburg","tallin","Helsinki","Stockholm","Oslo"],
     prise: 2050,
-    link:"auto/0",
+    link:"author/0",
     info:[
       {
         img: hours,
@@ -121,288 +156,7 @@ const slide = [
         description:"Трансфер"
       },
     ]
-  },
-  {
-    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    type: "Автомобильная",
-    header:"Пушкинский Петербург",
-    img:walk,
-    btn_title:"А.С. ПУШКИН",
-    routes:["st.Pitersburg","tallin","Helsinki","Stockholm","Oslo"],
-    prise: 2050,
-    link:"auto/0",
-    info:[
-      {
-        img: hours,
-        description:"34 часа"
-      },
-      {
-        img: transfer,
-        description:"Трансфер"
-      },
-      {
-        img: transfer,
-        description:"Трансфер"
-      },
-      {
-        img: transfer,
-        description:"Трансфер"
-      },
-    ]
-  },
-  {
-    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    type: "Автомобильная",
-    header:"Пушкинский Петербург",
-    img:walk,
-    btn_title:"А.С. ПУШКИН",
-    routes:["st.Pitersburg","tallin","Helsinki","Stockholm","Oslo"],
-    prise: 2050,
-    link:"auto/0",
-    info:[
-      {
-        img: hours,
-        description:"34 часа"
-      },
-      {
-        img: transfer,
-        description:"Трансфер"
-      },
-      {
-        img: transfer,
-        description:"Трансфер"
-      },
-      {
-        img: transfer,
-        description:"Трансфер"
-      },
-    ]
-  },
-  {
-    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    type: "Пешая",
-    header:"Храм царя",
-    img:walk,
-    btn_title:"Забытые места",
-    routes:["st.Pitersburg","tallin","Helsinki","Stockholm","Oslo"],
-    prise: 2000,
-    link:"walk/1",
-    info:[
-      {
-        img: hours,
-        description:"3 часа"
-      },
-      {
-        img: transfer,
-        description:"Трансфер"
-      },
-      {
-        img: guide,
-        description:"Гид"
-      },
-      {
-        img: photostop_2,
-        description:"Фотостопы"
-      },
-    ]
-  },
-  {
-    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    type: "Авторская",
-    header:"Петергоф",
-    img:author_1,
-    btn_title:"Питер",
-    routes:["st.Pitersburg","tallin","Helsinki","Stockholm","Oslo"],
-    prise: 700,
-    link:"author/2",
-    info:[
-      {
-        img: hours,
-        description:"2 часа"
-      },
-      {
-        img: transfer,
-        description:"Трансфер"
-      },
-      {
-        img: guide,
-        description:"Гид"
-      },
-      {
-        img: photostop_2,
-        description:"Фотостопы"
-      },
-    ]
-  },
-  {
-    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    type: "Авторская",
-    header:"Пушкинский Петербург",
-    img:walk,
-    btn_title:"Путин",
-    time:"3 часа",
-    routes:["st.Pitersburg","tallin","Helsinki","Stockholm","Oslo"],
-    prise: 23000,
-    link:"author/3",
-    info:[
-      {
-        img: hours,
-        description:"1 час"
-      },
-      {
-        img: transfer,
-        description:"Трансфер"
-      },
-      {
-        img: guide,
-        description:"Гид"
-      },
-      {
-        img: photostop_2,
-        description:"Фотостопы"
-      },
-    ]
-  },
-  {
-    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    type: "Автомобильная",
-    header:"Мовзалей",
-    img:author_1,
-    btn_title:"Церкви",
-    routes:["st.Pitersburg","tallin","Helsinki","Stockholm","Oslo"],
-    prise: 2400,
-    link:"auto/4",
-    info:[
-      {
-        img: hours,
-        description:"4 часа"
-      },
-      {
-        img: transfer,
-        description:"Трансфер"
-      },
-      {
-        img: guide,
-        description:"Гид"
-      },
-      {
-        img: photostop_2,
-        description:"Фотостопы"
-      },
-    ]
-  },
-  {
-    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    type: "Авторская",
-    header:"Зикурат",
-    img:author_1,
-    btn_title:"А.С. ПУШКИН",
-    routes:["st.Pitersburg","tallin","Helsinki","Stockholm","Oslo"],
-    prise: 2700,
-    link:"author/5",
-    info:[
-      {
-        img: hours,
-        description:"30 часов"
-      },
-      {
-        img: transfer,
-        description:"Трансфер"
-      },
-      {
-        img: guide,
-        description:"Гид"
-      },
-      {
-        img: photostop_2,
-        description:"Фотостопы"
-      },
-    ]
-  },
-  {
-    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    type: "Авторская",
-    header:"Пушкинский Петербург",
-    img:walk,
-    btn_title:"А.С. ПУШКИН",
-    routes:["st.Pitersburg","tallin","Helsinki","Stockholm","Oslo"],
-    prise: 9000,
-    link:"author/6",
-    info:[
-      {
-        img: hours,
-        description:"7 часов"
-      },
-      {
-        img: transfer,
-        description:"Трансфер"
-      },
-      {
-        img: guide,
-        description:"Гид"
-      },
-      {
-        img: photostop_2,
-        description:"Фотостопы"
-      },
-    ]
-  },
-  {
-    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    type: "Авторская",
-    header:"Пушкинский Петербург",
-    img:individuals,
-    btn_title:"А.С. ПУШКИН",
-    routes:["st.Pitersburg","tallin","Helsinki","Stockholm","Oslo"],
-    prise: 1000,
-    link:"author/7",
-    info:[
-      {
-        img: hours,
-        description:"2 часа"
-      },
-      {
-        img: transfer,
-        description:"Трансфер"
-      },
-      {
-        img: guide,
-        description:"Гид"
-      },
-      {
-        img: photostop_2,
-        description:"Фотостопы"
-      },
-    ]
-  },
-  {
-    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    type: "Авторская",
-    header:"Пушкинский Петербург",
-    img:author,
-    btn_title:"А.С. ПУШКИН",
-    routes:["st.Pitersburg","tallin","Helsinki","Stockholm","Oslo"],
-    prise: 14000,
-    link:"author/8",
-    info:[
-      {
-        img: hours,
-        description:"9 часов"
-      },
-      {
-        img: transfer,
-        description:"Трансфер"
-      },
-      {
-        img: guide,
-        description:"Гид"
-      },
-      {
-        img: photostop_2,
-        description:"Фотостопы"
-      },
-    ]
-  },
+  }
 ]
 
 const blocks = [
@@ -529,7 +283,9 @@ const routes = [
 
 const objectsSection = {
   cards,
-  slide,
+  sliderWalk,
+  sliderAuto,
+  sliderAuthor,
   blocks,
   answers,
   routes,

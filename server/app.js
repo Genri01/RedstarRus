@@ -34,21 +34,21 @@ if (process.env.NODE_ENV === 'production') {
 
 const PORT = config.get('Server.port') || 8080;
 
-var options = {
-  key: fs.readFileSync('certificates/private.key'),
-  cert: fs.readFileSync('certificates/certificate.crt'),
-  ca: fs.readFileSync('certificates/ca_bundle.crt')
-};
+// var options = {
+//   key: fs.readFileSync('certificates/private.key'),
+//   cert: fs.readFileSync('certificates/certificate.crt'),
+//   ca: fs.readFileSync('certificates/ca_bundle.crt')
+// };
 
 http.createServer(app).listen(PORT,()=>{
-    console.log(`Start server ${PORT} on port`);
-    console.log(`process.env.NODE_ENV = ${process.env.NODE_ENV}`);
-});
-
-https.createServer(options, app).listen(443,()=>{
-  console.log(`Start server 443 on port`);
+  console.log(`Start server ${PORT} on port`);
   console.log(`process.env.NODE_ENV = ${process.env.NODE_ENV}`);
 });
+
+// https.createServer(options, app).listen(443,()=>{
+//   console.log(`Start server 443 on port`);
+//   console.log(`process.env.NODE_ENV = ${process.env.NODE_ENV}`);
+// });
 
 
 
