@@ -4,6 +4,8 @@ const {
   image_path,
   individuals,
   walk,
+  walking,
+  walking_x,
   author,
   author_1,
   auto,
@@ -43,9 +45,49 @@ const sliderWalk = [
     description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     type: "Пешеходная",
     header:"Пушкинский Петербург",
-    img:walk,
+    img: walking,
+    img_x: walking_x,
     btn_title:"А.С. ПУШКИН",
     routes:["st.Pitersburg","tallin","Helsinki","Stockholm","Oslo"],
+    routes_times:[
+      {
+        img: start,
+        time:"08:00 am",
+        title:"Lorem ipsum dolor sit amet, consectetur ",
+        delimeter:image_path,
+      },
+      {
+        img: photostop_1,
+        time:"08:00 am",
+        title:"Lorem ipsum dolor sit amet, consectetur ",
+        delimeter:image_path,
+      },
+      {
+        img: museum,
+        time:"08:00 am",
+        title:"Lorem ipsum dolor sit amet, consectetur ",
+        delimeter:image_path,
+      },
+      {
+        img: lunch,
+        time:"08:00 am",
+        title:"Lorem ipsum dolor sit amet, consectetur ",
+        delimeter:image_path,
+      },
+      {
+        img: museum,
+        time:"08:00 am",
+        title:"Lorem ipsum dolor sit amet, consectetur ",
+        delimeter:image_path,
+      },
+      {
+        img: optional,
+        time:"08:00 am",
+        title:"Lorem ipsum dolor sit amet, consectetur ",
+        delimeter:image_path,
+      },
+  
+    ],
     prise: 2050,
     link:"walk/0",
     info:[
@@ -71,7 +113,8 @@ const sliderWalk = [
     description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     type: "Пешеходная",
     header:"Пушкинский Петербург!!!!!!!!",
-    img:walk,
+    img: walking,
+    img_x:walking_x,
     btn_title:"А.С. ПУШКИН",
     routes:["st.Pitersburg","tallin","Helsinki","Stockholm","Oslo"],
     prise: 2050,
@@ -236,51 +279,6 @@ const aboutcards = [
   }
 ]
 
-const routes = [
-  {
-    img: start,
-    time:"08:00 am",
-    title:"Lorem ipsum dolor sit amet, consectetur ",
-    delimeter:image_path,
-  },
-  {
-    img: photostop_1,
-    time:"08:00 am",
-    title:"Lorem ipsum dolor sit amet, consectetur ",
-    delimeter:image_path,
-  },
-  {
-    img: museum,
-    time:"08:00 am",
-    title:"Lorem ipsum dolor sit amet, consectetur ",
-    delimeter:image_path,
-  },
-  {
-    img: lunch,
-    time:"08:00 am",
-    title:"Lorem ipsum dolor sit amet, consectetur ",
-    delimeter:image_path,
-  },
-  {
-    img: museum,
-    time:"08:00 am",
-    title:"Lorem ipsum dolor sit amet, consectetur ",
-    delimeter:image_path,
-  },
-  {
-    img: museum,
-    time:"08:00 am",
-    title:"Lorem ipsum dolor sit amet, consectetur ",
-    delimeter:image_path,
-  },
-  {
-    img: optional,
-    time:"08:00 am",
-    title:"Lorem ipsum dolor sit amet, consectetur ",
-    delimeter:image_path,
-  },
-]
-
 const objectsSection = {
   cards,
   sliderWalk,
@@ -288,7 +286,6 @@ const objectsSection = {
   sliderAuthor,
   blocks,
   answers,
-  routes,
   aboutcards
 }
 

@@ -29,6 +29,8 @@ import vip from './images/vip.png';
 import churches_1 from './images/churches_1.png';
 import author_1 from './images/author_1.png';
 import walking_1 from './images/walking_1.png';
+import walking from './images/walking_0@.png';
+import walking_x from './images/walking_0@2x.png';
 import individuals from './images/individual.png';
 import cross from './images/cross.svg';
 import image_path from './images/image_path.svg';
@@ -49,6 +51,8 @@ const images = {
   logo_footer,
   author_1,
   walking_1,
+  walking,
+  walking_x,
   individuals,
   advantages_1,
   churches_1,

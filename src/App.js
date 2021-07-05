@@ -17,14 +17,14 @@ class App extends React.Component {
         show: false
     }
     this.toogleShow = this.toogle.bind(this)
-}
-toogle(e) {
-  const { show } = this.state;
+  }
+  toogle(e) {
+    const { show } = this.state;
 
-  window.scrollTo(0,0);
-    this.setState({
-      show: !show,
-    })
+    window.scrollTo(0,0);
+      this.setState({
+        show: !show,
+      })
   }
 
   render() {

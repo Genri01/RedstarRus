@@ -16,42 +16,45 @@ const {
   sliderAuthor,
   sliderAuto,
   sliderWalk,
-  routes,
 } = config;
 
 function Product_page (props) {
   let { id, category } = useParams();
-  let header = '', img = '', info = [], type ='', description = '';
+  let header = '', img = '', info = [], type ='', description = '',routes_times="";
   const { show, toogleShow } = props;
   switch (category) {
     case 'walk':
       header = sliderWalk[id].header;
-      img = sliderWalk[id].img;
+      img = sliderWalk[id].img_x;
       info = sliderWalk[id].info;
       type = sliderWalk[id].type;
       description = sliderWalk[id].description;
+      routes_times = sliderWalk[id].routes_times;
       break;
     case 'auto':
       header = sliderAuto[id].header;
-      img = sliderAuto[id].img;
+      img = sliderAuto[id].img_x;
       info = sliderAuto[id].info;
       type = sliderAuto[id].type;
       description = sliderAuto[id].description;
+      routes_times = sliderAuto[id].routes_times;
       break;
     case 'author':
       header = sliderAuthor[id].header;
-      img = sliderAuthor[id].img;
+      img = sliderAuthor[id].img_x;
       info = sliderAuthor[id].info;
       type = sliderAuthor[id].type;
       description = sliderAuthor[id].description;
+      routes_times = sliderAuthor[id].routes_times;
       break;
   
     default:
       header = sliderAuto[id].header;
-      img = sliderAuto[id].img;
+      img = sliderAuto[id].img_x;
       info = sliderAuto[id].info;
       type = sliderAuto[id].type;
       description = sliderAuto[id].description;
+      routes_times = sliderWalk[id].routes_times;
       break;
   }
 
@@ -79,7 +82,7 @@ function Product_page (props) {
         />
         <AboutBlock header="О мироприятии" info={info} />
         <BookBlock onClick={toogleShow} header="Впечатление" description={description} />
-        <RoteBlock header="Маршрут" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et" routes={routes} />
+        <RoteBlock header="Маршрут" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et" routes={routes_times} />
         <SliderOfExcursions type="Подобные экскурсии" slide={sliderAuto} />
         <IndividualBlock onClick={toogleShow} />
         <Popup show={show} onClick={toogleShow} />

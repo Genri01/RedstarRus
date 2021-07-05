@@ -81,6 +81,6 @@ toogle(e) {
         </div>
     );
   }
-}
+} 
 
 export default Main_page;
