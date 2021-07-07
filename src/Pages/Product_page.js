@@ -71,7 +71,7 @@ function Product_page (props) {
         <HeaderMenu />
         <TitleBlock
           title = {header}
-          subtitle = {`${type} экскурсия`}
+          subtitle = {`${type} экскурсия для Вашей индивидуальной группы от 1 до 5 человек`}
           header = ""
           subheader = ""
           img_head = {img}
