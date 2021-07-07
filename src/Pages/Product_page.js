@@ -80,9 +80,9 @@ function Product_page (props) {
           ht={534}
           // hb={1}
         />
-        <AboutBlock header="О мироприятии" info={info} />
-        <BookBlock onClick={toogleShow} header="Впечатление" description={description} />
-        <RoteBlock header="Маршрут" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et" routes={routes_times} />
+        <AboutBlock header="О мероприятии" info={info} />
+        <BookBlock onClick={toogleShow} header="Описание" description={description} />
+        <RoteBlock header="Маршрут" description="Маршрут и очередность посещения достопримечательностей указан как пример и может быть изменен в зависимости от дня недели" routes={routes_times} />
         <SliderOfExcursions type="Подобные экскурсии" slide={sliderAuto} />
         <IndividualBlock onClick={toogleShow} />
         <Popup show={show} onClick={toogleShow} />

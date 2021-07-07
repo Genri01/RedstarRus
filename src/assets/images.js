@@ -31,6 +31,20 @@ import author_1 from './images/author_1.png';
 import walking_1 from './images/walking_1.png';
 import walking from './images/walking_0@.png';
 import walking_x from './images/walking_0@2x.png';
+import walking_2 from './images/walking_2@.png';
+import walking_2x from './images/walking_2@2x.png';
+import walking_3 from './images/walking_3@.png';
+import walking_3x from './images/walking_3@2x.png';
+import walking_4 from './images/walking_4@.png';
+import walking_4x from './images/walking_4@2x.png';
+import walking_5 from './images/walking_5@.png';
+import walking_5x from './images/walking_5@2x.png';
+import walking_6 from './images/walking_6@.png';
+import walking_6x from './images/walking_6@2x.png';
+import walking_7 from './images/walking_7@.png';
+import walking_7x from './images/walking_7@2x.png';
+import walking_8 from './images/walking_8@.png';
+import walking_8x from './images/walking_8@2x.png';
 import individuals from './images/individual.png';
 import cross from './images/cross.svg';
 import image_path from './images/image_path.svg';
@@ -51,6 +65,20 @@ const images = {
   logo_footer,
   author_1,
   walking_1,
+  walking_2,
+  walking_2x,
+  walking_3,
+  walking_3x,
+  walking_4,
+  walking_4x,
+  walking_5,
+  walking_5x,
+  walking_6,
+  walking_6x,
+  walking_7,
+  walking_7x,
+  walking_8,
+  walking_8x,
   walking,
   walking_x,
   individuals,
