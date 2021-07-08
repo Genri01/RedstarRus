@@ -71,16 +71,56 @@
 
 .main_container_subtitle {
   display: flex;
-  margin: 20px 643px 0 0;
-  font-family: Montserrat;
+  margin: 20px 20px 0 0;
   font-size: 20px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.4;
   letter-spacing: 0.5px;
-  color: #212629;
+  color: #848789;
   font-family: 'Montserrat-SemiBold';
+}
+
+.main_container_info {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  background-color: #fafafa;
+}
+
+.main_container_price {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+}
+
+.info_price {
+  display: flex;
+  font-size: 60px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+  color: rgb(185, 44, 42);
+  font-family: 'Montserrat-SemiBold';
+}
+
+.info_title {
+  display: flex;
+  font-size: 20px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+  color: #848789;
+  font-family: 'Montserrat-SemiBold';
+  text-align: center;
 }
 
 .main_container_description {
@@ -99,6 +139,7 @@
 }
 
 .main_container_title_block {
+  width: 70%;
   padding: 89px 185px 69px 140px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;

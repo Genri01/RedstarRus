@@ -20,7 +20,7 @@ const {
 
 function Product_page (props) {
   let { id, category } = useParams();
-  let header = '', img = '', info = [], type ='', description = '',routes_times="";
+  let header = '', img = '', info = [], type ='', description = '',routes_times="",price="";
   const { show, toogleShow } = props;
   switch (category) {
     case 'walk':
@@ -30,6 +30,7 @@ function Product_page (props) {
       type = sliderWalk[id].type;
       description = sliderWalk[id].description;
       routes_times = sliderWalk[id].routes_times;
+      price = sliderWalk[id].price;
       break;
     case 'auto':
       header = sliderAuto[id].header;
@@ -38,6 +39,7 @@ function Product_page (props) {
       type = sliderAuto[id].type;
       description = sliderAuto[id].description;
       routes_times = sliderAuto[id].routes_times;
+      price = sliderAuto[id].price;
       break;
     case 'author':
       header = sliderAuthor[id].header;
@@ -46,6 +48,7 @@ function Product_page (props) {
       type = sliderAuthor[id].type;
       description = sliderAuthor[id].description;
       routes_times = sliderAuthor[id].routes_times;
+      price = sliderAuthor[id].price;
       break;
   
     default:
@@ -55,6 +58,7 @@ function Product_page (props) {
       type = sliderAuto[id].type;
       description = sliderAuto[id].description;
       routes_times = sliderWalk[id].routes_times;
+      price = sliderWalk[id].price;
       break;
   }
 
@@ -77,8 +81,8 @@ function Product_page (props) {
           img_head = {img}
           description = ""
           h={741}
-          ht={534}
-          // hb={1}
+          ht={350}
+          price={price}
         />
         <AboutBlock header="О мероприятии" info={info} />
         <BookBlock onClick={toogleShow} header="Описание" description={description} />

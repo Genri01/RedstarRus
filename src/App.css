@@ -470,12 +470,25 @@ width: 100%;
   }
   .header_menu_logo_container {
     margin-right: 37px;
-    margin-left: 230px;
+    margin-left: 60px;
   }
   .main_container_title_block {
-    padding: 59px 125px 69px 303px;
+    width: 40%;
+    padding: 59px 5px 69px 0px;
+ 
   } 
-
+  /* .main_container_price {
+    width: 60%;
+  }  */
+  .main_container_info {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #fafafa;
+}
   .footer_up {
     justify-content: center;
   }
@@ -535,7 +548,9 @@ width: 100%;
 .slider_container_cards {
   margin-left: 145px !important;
 }
-
+.info_title {
+  width: 200px;
+}
 }
 
 @media (min-device-width: 414px) and (min-device-height:890px) and (max-device-height:880px) {
@@ -3640,7 +3655,7 @@ width: 100%;
   }
   .main_container_title_block {
     font-size: 31px;
-    padding: 29px 125px 17px 533px;
+    padding: 29px 125px 17px 423px;
   } 
 
   .main_container { 
@@ -3655,6 +3670,7 @@ width: 100%;
   }
 
   .main_container_subtitle {
+    width: 50%;
     font-size: 15px;
     margin: 20px 0px;
   }
@@ -3674,6 +3690,12 @@ width: 100%;
 
   .main_container_img {
     height: 570px;
+  }
+
+  .main_container_price {
+    position: absolute;
+    left: 410px;
+    top: 30px;
   }
 
   .btn_container {
@@ -3754,9 +3776,6 @@ width: 100%;
     /* border: 4px solid red; */
   }
 
-  .header_menu_title_container {
-    margin-left: 440px;
-  }
   .btn_title_container {
     position: absolute;
     top: 5px;
@@ -3922,7 +3941,7 @@ width: 100%;
   }
 
   .routes_container {
-    margin-left: 420px !important;
+    margin-left: 330px !important;
     padding-top: 1% !important;
   }
 
@@ -3946,7 +3965,7 @@ width: 100%;
   }
 
   .book_container {
-    padding-left: 41% !important;
+    padding-left: 39% !important;
     padding-top: 4% !important;
   }
 
@@ -3959,7 +3978,7 @@ width: 100%;
   }
 
   .about_container {
-    padding-left: 39% !important;
+    padding-left: 37% !important;
     padding-top: 0% !important;
     height: auto !important;
   }
@@ -4040,7 +4059,10 @@ width: 100%;
  .header_menu_title_container {
     width: 380px !important;
     padding-left: 0px !important;
-    margin-left: 422px;
+    margin-left: 330px;
+  }
+  .main_container_info {
+    position: relative;
   }
 }
 

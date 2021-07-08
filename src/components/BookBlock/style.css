@@ -31,4 +31,5 @@
   font-family: 'Montserrat-Regular';
   margin: 20px 0px;
   line-height: 25px;
+  white-space: pre-wrap;
 }
