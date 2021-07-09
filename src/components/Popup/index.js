@@ -325,7 +325,7 @@ class Popup extends React.Component {
 
 componentDidMount() {
   const { quality } = this.state
-  fetch('http://api.sypexgeo.net/json')
+  fetch('https://api.sypexgeo.net/json')
   .then(response => response.json())
   .then(data => {
     this.setState({ 
