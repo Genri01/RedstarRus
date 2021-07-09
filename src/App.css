@@ -2353,7 +2353,9 @@ width: 100%;
   .main_container_info {
     position: relative;
   }
-
+  .container_form {
+    height: 550px!important;
+  }
 }
 @media (min-device-width: 480px) and (min-device-height:730px) and (max-device-height:864px) {
   .social_img {
@@ -4154,6 +4156,15 @@ width: 100%;
   .info_title {
     font-size: 17px;
 }
+.container_form {
+  height: 510px!important;
+}
+
+.container_btn .input_submit {
+  padding: 10px 20px!important;
+}
+
+
 
 
 }
