@@ -7,6 +7,7 @@ import './style.css';
 function HeaderMenu(props) {
   let { url } = useRouteMatch();
   const { logo,logo_footer } = images;
+  const { product } = props;
   let dark = '';
   let text_dark = '';
   let gradient = '';
@@ -26,7 +27,7 @@ function HeaderMenu(props) {
         <div className="header_menu_logo_container">
         <Link to="/"><img style={{cursor:'pointer'}} src={img_logo} alt="logo" width="160" height="56" /></Link>
         </div>
-        <div className="header_menu_title_container">
+        <div className={product ? 'header_menu_title_container_product' : `header_menu_title_container`}>
         <Link to={"/#walk"}><div className={`menu_title ${text_dark}`} >Пешеходные</div></Link>
         <Link to={"/#auto"}><div className={`menu_title ${text_dark}`} >Автомобильные</div></Link>
         <Link to={"/#author"}><div className={`menu_title ${text_dark}`} >Авторские</div></Link>

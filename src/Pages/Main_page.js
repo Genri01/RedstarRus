@@ -65,6 +65,7 @@ toogle(e) {
               img_head = {header}
               description = "Мы предоставляем пешеходные, автомобильные, а так же авторские экскурсии по Санкт-Петербургу и пригородам.Мы предоставляем пешеходные,автомобильные,а так же авторские экскурсии по Санкт-Петербургу и пригородам"
               btn
+              main={true}
             />
             <TypesOfExcursions title="Виды Экскурсий" cards={cards}/>
             <SliderOfExcursions id={'walk'} number={1} type="Пешеходные" slide={sliderWalk} dark />

@@ -72,7 +72,7 @@ function Product_page (props) {
   return (
     <div className="App">
       <div className="content_app_container">
-        <HeaderMenu />
+        <HeaderMenu product={true} />
         <TitleBlock
           title = {header}
           subtitle = {`${type} экскурсия для Вашей индивидуальной группы от 1 до 5 человек`}
@@ -83,6 +83,7 @@ function Product_page (props) {
           h={741}
           ht={350}
           price={price}
+          product={true}
         />
         <AboutBlock header="О мероприятии" info={info} />
         <BookBlock onClick={toogleShow} header="Описание" description={description} />
