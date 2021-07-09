@@ -126,7 +126,7 @@ moveRight() {
                     </div>
                   </div>
                   <div className="slider_info_container_down">
-                    <div className="slider_price_txt">{el.prise} ₽</div>
+                    <div className="slider_price_txt">{el.price} ₽</div>
                     <ButtonSection link={`/product/${el.link}`} mr={10} title="ПОДРОБНЕЕ" width={160} height={45} />
                   </div>
                 </div>

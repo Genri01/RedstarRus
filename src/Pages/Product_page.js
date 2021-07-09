@@ -61,6 +61,7 @@ function Product_page (props) {
       price = sliderWalk[id].price;
       break;
   }
+console.log(price)
 
   if(show) {
     document.getElementsByTagName('html')[0].style.overflowX="hidden";
