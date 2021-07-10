@@ -4169,6 +4169,7 @@ width: 100%;
 
 }
 
+/* iphone 6/7/8*/
 @media (min-device-width: 375px) and (min-device-height: 660px) and (max-device-height: 670px) {
   .social_img {
     margin: 0px;
@@ -4347,7 +4348,7 @@ width: 100%;
   .main_container_title_block {
     font-size: 31px;
     padding: 29px 125px 17px 533px;
-  } 
+  }
 
   .main_container { 
     height: 920px;
@@ -4376,6 +4377,11 @@ width: 100%;
   .main_container_title {
     font-size: 19px;
     height: 20px;
+  }
+
+  .main_container_title_block_product {
+    font-size: 31px;
+    padding: 140px 477px 17px 482px;
   }
 
   .main_container_img {
