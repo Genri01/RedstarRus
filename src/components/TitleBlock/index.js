@@ -32,7 +32,8 @@ function TitleBlock(props) {
    
         </div>
         <div className="main_container_info">
-          <div style={{paddingBottom: hb ? `${hb}px`: ''}} className={`${product ? 'main_container_title_block_product':'main_container_title_block'} ${h ? 'none_padding' : ''}`}>
+          {/* <div style={{paddingBottom: hb ? `${hb}px`: ''}} className={`${product ? 'main_container_title_block_product':'main_container_title_block'} ${h ? 'none_padding' : ''}`}> */}
+          <div style={{paddingBottom: hb ? `${hb}px`: ''}} className={`${product ? 'main_container_title_block_product':'main_container_title_block'} `}>
             <div className="main_container_title">
               {title}
             </div>
