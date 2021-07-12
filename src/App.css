@@ -3529,7 +3529,7 @@ width: 100%;
   }
 }
 
-@media (min-device-width: 370px) and (min-device-height: 800px) and (max-device-height: 820px) {
+@media (min-device-width: 370px) and (min-device-height: 800px) and (max-device-height: 896px) {
   
   .social_img {
     margin: 0px;
