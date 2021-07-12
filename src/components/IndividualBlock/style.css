@@ -4,6 +4,7 @@
   width: 100%;
   height: auto;
   margin-bottom: 100px;
+  padding-left: 0px;
 }
 
 .individual_container_left {
@@ -11,7 +12,7 @@
   width: 47%;
   height: 100%;
   flex-direction: column;
-  padding-left: 10%;
+  padding-left: 0px;
   padding-top: 10%;
 }
 

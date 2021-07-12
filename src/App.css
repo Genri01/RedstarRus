@@ -822,7 +822,7 @@ width: 100%;
   }
 
   .slider_container_title {
-    font-size: 11px;
+    font-size: 15px;
     padding-right: 1%;
   }
 
@@ -1026,6 +1026,7 @@ width: 100%;
   .routes_container {
     margin-left: 420px !important;
     padding-top: 1% !important;
+    padding-left: 10% !important;
   }
 
   .routes_container_header {
@@ -1406,7 +1407,7 @@ width: 100%;
   }
 
   .slider_container_title {
-    font-size: 11px;
+    font-size: 15px;
     padding-right: 1%;
   }
 
@@ -1610,6 +1611,7 @@ width: 100%;
   .routes_container {
     margin-left: 420px !important;
     padding-top: 1% !important;
+    padding-left: 10% !important;
   }
 
   .routes_container_header {
@@ -1993,7 +1995,7 @@ width: 100%;
   }
 
   .slider_container_title {
-    font-size: 11px;
+    font-size: 15px;
     padding-right: 1%;
   }
 
@@ -2203,6 +2205,7 @@ width: 100%;
   .routes_container {
     margin-left: 420px !important;
     padding-top: 1% !important;
+    padding-left: 10% !important;
   }
 
   .routes_container_header {
@@ -2615,7 +2618,7 @@ width: 100%;
   }
 
   .slider_container_title {
-    font-size: 11px;
+    font-size: 15px;
     padding-right: 1%;
   }
 
@@ -2819,6 +2822,7 @@ width: 100%;
   .routes_container {
     margin-left: 420px !important;
     padding-top: 1% !important;
+    padding-left: 10% !important;
   }
 
   .routes_container_header {
@@ -3198,7 +3202,7 @@ width: 100%;
   }
 
   .slider_container_title {
-    font-size: 11px;
+    font-size: 15px;
     padding-right: 1%;
   }
 
@@ -3402,6 +3406,7 @@ width: 100%;
   .routes_container {
     margin-left: 420px !important;
     padding-top: 1% !important;
+    padding-left: 10% !important;
   }
 
   .routes_container_header {
@@ -3816,7 +3821,7 @@ width: 100%;
   }
 
   .slider_container_title {
-    font-size: 11px;
+    font-size: 15px;
     padding-right: 1%;
   }
 
@@ -4017,6 +4022,7 @@ width: 100%;
   .routes_container {
     margin-left: 330px !important;
     padding-top: 1% !important;
+    padding-left: 10% !important;
   }
 
   .routes_container_header {
@@ -4444,8 +4450,9 @@ width: 100%;
   }
 
   .slider_container_title {
-    font-size: 11px;
+    font-size: 15px;
     padding-right: 1%;
+    padding-left: 1%;
   }
 
   .slider_info_container_down .btn_title {
@@ -4648,6 +4655,7 @@ width: 100%;
   .routes_container {
     margin-left: 420px !important;
     padding-top: 1% !important;
+    padding-left: 10% !important;
   }
 
   .routes_container_header {
@@ -5048,7 +5056,7 @@ width: 100%;
   }
 
   .slider_container_title {
-    font-size: 11px;
+    font-size: 15px;
     padding-right: 1%;
   }
 
@@ -5252,6 +5260,7 @@ width: 100%;
   .routes_container {
     margin-left: 420px !important;
     padding-top: 1% !important;
+    padding-left: 10% !important;
   }
 
   .routes_container_header {
@@ -5630,7 +5639,7 @@ width: 100%;
   }
 
   .slider_container_title {
-    font-size: 11px;
+    font-size: 15px;
     padding-right: 1%;
   }
 
@@ -5834,6 +5843,7 @@ width: 100%;
   .routes_container {
     margin-left: 420px !important;
     padding-top: 1% !important;
+    padding-left: 10% !important;
   }
 
   .routes_container_header {
@@ -6242,6 +6252,7 @@ width: 100%;
   .slider_container_title {
     font-size: 11px;
     padding-right: 1%;
+    padding-left: 3%;
   }
 
   .slider_info_container_down .btn_title {
@@ -6456,6 +6467,7 @@ width: 100%;
   .routes_container {
     margin-left: 420px !important;
     padding-top: 1% !important;
+    padding-left: 10% !important;
   }
 
   .routes_container_header {
@@ -6589,6 +6601,7 @@ width: 100%;
   }
   .routes_container {
     margin-left: 320px !important;
+    padding-left: 10% !important;
   }
   .nav_container {
     padding-left: 34%;

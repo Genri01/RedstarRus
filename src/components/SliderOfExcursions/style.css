@@ -32,7 +32,7 @@
   align-items: center;
   flex-direction: row;
   width: 100%;
-  padding-left: 10%;
+  padding-left: 0px;
   padding-top: 10%;
 }
 
@@ -51,7 +51,7 @@
   line-height: normal;
   letter-spacing: 2.7px;
   color: #212629;
-  padding-left: 3%;
+  padding-left: 0px;
   padding-right: 3%;
   font-family:'Montserrat-Bold';
 }

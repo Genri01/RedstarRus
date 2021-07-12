@@ -7,6 +7,8 @@
   height: auto;
   padding-top: 8%;
   border-radius: 60px;
+  padding-bottom: 67px;
+  padding-left: 0px;
 }
 
 .routes_container_header {
@@ -18,7 +20,7 @@
   letter-spacing: 1px;
   color: #212629;
   font-family: 'Montserrat-Bold';
-  padding-left: 8%;
+  padding-left: 0px;
 }
 
 .routes_container_title {
@@ -30,7 +32,7 @@
   letter-spacing: 0.84px;
   color: #363636;
   font-family: 'Montserrat-Regular';
-  padding-left: 8%;
+  padding-left: 0px;
 }
 
 .routes_container_cards {
@@ -39,7 +41,7 @@
   width: 100%;
   flex: 1 !important;
   align-items: flex-start;
-  padding-left: 8%;
+  padding-left: 0px;
 }
 
 .route_card{
