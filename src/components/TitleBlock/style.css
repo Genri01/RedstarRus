@@ -28,7 +28,7 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
-  height: 800px;
+  height: 1100px;
   border-bottom-left-radius: 35px;
   border-bottom-right-radius: 35px;
   position: relative;
@@ -83,6 +83,7 @@
   letter-spacing: 1px;
   color: #212629;
   font-family: 'Montserrat-Bold';
+  padding-left: 11%;
 }
 
 .main_container_subtitle {
@@ -96,6 +97,7 @@
   letter-spacing: 0.5px;
   color: #848789;
   font-family: 'Montserrat-SemiBold';
+  padding-left: 11%;
 }
 
 .main_container_info {
