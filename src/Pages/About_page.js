@@ -45,8 +45,25 @@ class About_page extends React.Component {
             </div>
             <div className="about_page_container_right">
               <div className="about_header_cards">О Ред Стар</div>
-              <div className="about_description_cards">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
-              <div className="about_title_cards">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+              <div className="about_description_cards">Red Star Travel является лицензированным туроператором, предлагающим туры как по Санкт-Петербургу, так и в Москве. Наша команда состоит из преданных своему делу сотрудников c опытом работы в сфере туризма от 20 лет. Все наши усилия нацелены на предоставление высочайшего уровня сервиса и удовлетворение пожеланий даже самых взыскательных клиентов. Для нас не существует слов «невозможно» или «нельзя», так как мы ищем пути решения задачи, какой бы сложной она ни казалась. Наша прерогатива – это наши клиенты и их доверие к нам, именно поэтому отклик на ваш запрос не заставит себя долго ждать. Уже в течение одного часа мы ответим на Ваш запрос. <br /><br />Наш автопарк включает в себя самые последние модели автомобилей улучшенной комплектации класса Седан, Минивэн, Спринтер, имеющих комфортабельные салоны. Наши гиды –  это профессионалы и знатоки своего дела. Все наши экскурсоводы имеют лицензии на право проведения экскурсий во всех основных музеях Санкт-Петербурга и пригородов. Наши гиды готовы поделиться с гостями своими глубокими знаниями о городе и о стране, а также показать Санкт-Петербург через свое личное к нему отношение.</div>
+              <div className="about_title_cards">"Ред Стар Тревел" предоставляет следующие туристические услуги:<br />
+
+Автомобильные экскурсии<br />
+Пешеходные экскурсии<br />
+Экскурсии по рекам и каналам на теплоходах и катерах<br />
+Прогулки по крышам<br />
+Составление индивидуальных туристических программ для небольших (от 1 чел) и больших групп (неограниченное количество человек)<br />
+Организация различных мероприятий, в том числе семинаров и конференций<br /><br />
+
+Экскурсии проводятся на следующих языках:<br />
+
+Русский<br />
+Английский<div class="break"></div>
+Французский<div class="break"></div>
+Немецкий<div class="break"></div>
+Испанский<div class="break"></div>
+Китайский <div class="break"></div>
+</div>
               <div className="container_about_cards">
                 {
                   aboutcards.map((el,id)=>(

@@ -10,9 +10,9 @@ function IndividualBlock(props) {
       <div id="individual" className="individual_container">
           <div className="individual_container_left">
               <img src={individual} alt="profile" width="210" height="160" />
-              <div className="individual_container_left_header">Индивидуальные</div>
-              <div className="individual_container_left_title">Мы составим индивидуальный тур под Ваши нужды за 30 минут</div>
-              <div className="individual_container_left_description">У вас есть индивидуальный запрос на экскурсию по Санкт-Петербургу и пригородам?Напишите нам Ваши предложения и мы составим маршрут,программу и просчитаем стоимостьв течении 30 минут.</div>
+              <div className="individual_container_left_header">Тур по запросу</div>
+              <div className="individual_container_left_title">Мы составим индивидуальный тур под Ваш запрос за 30 минут</div>
+              <div className="individual_container_left_description">У вас есть индивидуальный запрос на экскурсию по Санкт-Петербургу и пригородам? Напишите нам Ваши предложения и мы составим маршрут, программу и просчитаем стоимость в течение 30 минут.</div>
               <ButtonSection onClick={onClick} mt={13} lock active width={179} height={56} title="ПРОСЧИТАТЬ" />
           </div>
           <div className="individual_container_right">

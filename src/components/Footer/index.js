@@ -20,7 +20,7 @@ function Footer(props) {
           <Link to={"/#walk"}><div className="footer_txt" >Пешеходные</div></Link>
           <Link to={"/#auto"}><div className="footer_txt" >Автомобильные</div></Link>
           <Link to={"/#author"}><div className="footer_txt" >Авторские</div></Link>
-          <Link to={"/#individual"}><div className="footer_txt">Индивидуальные</div></Link>
+          <Link to={"/#individual"}><div className="footer_txt">Тур по Вашему запросу</div></Link>
           </div>
           <div className="footer_desription_section_right">
           <Link to={"/#answer"}><div className="footer_txt">Вопросы и ответы</div></Link>

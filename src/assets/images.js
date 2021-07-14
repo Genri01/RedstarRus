@@ -45,6 +45,16 @@ import walking_7 from './images/walking_7@.png';
 import walking_7x from './images/walking_7@2x.png';
 import walking_8 from './images/walking_8@.png';
 import walking_8x from './images/walking_8@2x.png';
+import walking_9 from './images/walking_9@.png';
+import walking_9x from './images/walking_9@2x.png';
+import auto_1 from './images/auto_1@.png';
+import auto_1x from './images/auto_1@2x.png';
+import auto_2 from './images/auto_2@.png';
+import auto_2x from './images/auto_2@2x.png';
+import auto_3 from './images/auto_3@.png';
+import auto_3x from './images/auto_3@2x.png';
+import author_0 from './images/author_0@.png';
+import author_0x from './images/author_0@2x.png';
 import individuals from './images/individual.png';
 import cross from './images/cross.svg';
 import image_path from './images/image_path.svg';
@@ -79,6 +89,16 @@ const images = {
   walking_7x,
   walking_8,
   walking_8x,
+  walking_9,
+  walking_9x,
+  auto_1,
+  auto_1x,
+  auto_2,
+  auto_2x,
+  auto_3,
+  auto_3x,
+  author_0,
+  author_0x,
   walking,
   walking_x,
   individuals,
