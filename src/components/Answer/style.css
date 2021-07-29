@@ -1,4 +1,7 @@
 
+.answer_container {
+  width: 27%;
+}
 
 .answer_cross {
   align-items: center;
@@ -26,7 +29,6 @@
 }
 
 .answer_description {
-
   margin: 0 533px 49px 0;
   font-family: Montserrat;
   font-size: 15px;

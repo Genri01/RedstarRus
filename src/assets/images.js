@@ -63,6 +63,7 @@ import arrow_left from './images/arrow_left.svg';
 import arrow_right from './images/arrow_right.svg';
 import logo_footer from './images/logo_footer.svg';
 import call_up from './images/call_up.png';
+import wats_up from './images/wats_up.png';
 import call_down from './images/call_down.png';
 import individual_card from './images/individual_card.png';
 import qr from './images/qr.png';
@@ -134,6 +135,7 @@ const images = {
   cross,
   image_path,
   call_up,
+  wats_up,
   call_down,
   qr
 }

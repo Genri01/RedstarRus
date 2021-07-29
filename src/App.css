@@ -3677,11 +3677,11 @@ width: 100%;
     height: auto;
 }
 
-  .why_card_description {
-    width: 160px;
-    height: auto;
-    padding-bottom: 50px;
-  }
+.why_card_description {
+  width: 300px;
+  height: auto;
+  padding-bottom: 50px;
+}
 
   .why_container_header {
     padding-left: 0px;
@@ -3693,6 +3693,10 @@ width: 100%;
     padding-left: 0%;
     display: flex;
     align-items: center;
+  }
+
+  .why_card_title {
+    text-align: center;
   }
 
   .answerblock_container {
@@ -3730,6 +3734,7 @@ width: 100%;
 
   .answerblock_description {
     margin: 0 0px 40px 0;
+    
   }
   .footer_cap {display: none;}
   .answerblock_container {
@@ -3738,13 +3743,18 @@ width: 100%;
 
   .answer_title {
     margin: 0px;
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .answer_description {
-    width: 300px;
-    margin: 0px;
+    width: 310px;
+    margin-left: 30px;
     font-size: 13px;
+    margin-top: 15px;
+  }
+
+  .answer_cross {
+    margin-top: 5px;
   }
   .header_menu_logo_container {
     margin-right: 177px;
@@ -3754,12 +3764,12 @@ width: 100%;
   }
   .main_container_title_block {
     font-size: 31px;
-    padding: 29px 417px 17px 533px;
+    padding: 111px 493px 17px 510px;
     
   } 
   .main_container_title_block_product {
     font-size: 31px;
-    padding: 29px 417px 17px 413px;
+    padding: 111px 494px 17px 500px;
   } 
   .main_container_img_product {
     height: 570px;
@@ -3768,7 +3778,7 @@ width: 100%;
 
   .main_container_price {
     position: absolute;
-    left: 410px;
+    left: 475px;
     top: 15px;
   }
 
@@ -3803,8 +3813,8 @@ width: 100%;
   }
 
   .main_container_title {
-    font-size: 19px;
-    height: 20px;
+    font-size: 18px;
+    /* height: 20px; */
   }
 
   .main_container_img {
@@ -3950,6 +3960,7 @@ width: 100%;
 
   .footer_txt {
     font-size: 9px !important;
+    margin: 0 0px 18px 0;
   }
 
   .footer_social_section {
@@ -4060,19 +4071,31 @@ width: 100%;
   }
 
   .routes_container {
-    margin-left: 330px !important;
+    margin-left: 400px !important;
     padding-top: 1% !important;
-    padding-left: 10% !important;
+    padding-left: 9% !important;
   }
 
   .routes_container_header {
     font-size: 30px !important;
+    padding-left: 60px;
   }
 
   .routes_container_title {
     width: 300px !important;
     font-size: 13px !important;
   }
+
+  .routes_container_cards {
+    display: -webkit-flex;
+    flex-direction: column;
+    width: 26%;
+    height: auto;
+    flex: 1 1 !important;
+    align-items: flex-start;
+    padding-left: 0px;
+  }
+
 
   .route_time {
     font-size: 15px !important;
@@ -4085,12 +4108,13 @@ width: 100%;
   }
 
   .book_container {
-    padding-left: 39% !important;
+    padding-left: 41% !important;
     padding-top: 4% !important;
   }
 
   .book_header {
     font-size: 28px !important;
+    padding-left: 40px;
   }
 
   .book_description {
@@ -4098,7 +4122,7 @@ width: 100%;
   }
 
   .about_container {
-    padding-left: 37% !important;
+    padding-left: 39% !important;
     padding-top: 0% !important;
     height: auto !important;
   }
@@ -4184,10 +4208,11 @@ width: 100%;
  .header_menu_title_container_product {
     width: 380px !important;
     padding-left: 0px !important;
-    margin-left: 330px;
+    margin-left: 425px;
   }
   .main_container_info {
     position: relative;
+    height: auto;
   }
 
   .info_price { 
@@ -4209,8 +4234,13 @@ width: 100%;
   padding: 10px 20px!important;
 }
 
+.nav_container_product {
+  padding-left: 37%;
+}
 
-
+.cross_rotate {
+  margin-left: 30px;
+}
 
 }
 

@@ -10,7 +10,7 @@ function CallBtn(props) {
     <div onClick={onClick} className="call_container">
       <div className="call_wrapper">
         <img className="call_up" src={call_up} alt="call_up" width={95} />
-        <img className="call_down" src={call_down} alt="call_down" width={95}  />
+        <img className="call_down" src={call_down} alt="call_down" width={95} />
       </div>
     </div>
   );

@@ -41,13 +41,13 @@ moveRight() {
 }
 
   render() {
-    const { slide, type, dark, number,id } = this.props;
+    const { slide, type, dark, number,id, prod } = this.props;
     const { active } = this.state;
     const { calendar,arrow_left,arrow_right,star_filled } = images;
     return (
 
   <div id={id} style={{backgroundColor: dark ? '#f8f8f8' : '#ffffff'}} className="slider_container">
-    <div className="nav_container">
+    <div className={`${ prod ? "nav_container_product" : "nav_container"}`}>
       <div className="slider_container_title">{type}</div>
       <div className="arrow_left" onClick={this.leftClick}>
         <img src={arrow_left} alt="types" width="100%" height="100%" />

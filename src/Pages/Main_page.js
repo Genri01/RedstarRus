@@ -11,6 +11,7 @@ import AnswerBlock from '../components/AnswerBlock/index';
 import Footer from '../components/Footer/index';
 import Popup from '../components/Popup/index';
 import CallBtn from '../components/CallBtn/index';
+import WatsBtn from '../components/WatsBtn/index';
 import '../App.css';
 
 const { header } = images;
@@ -28,24 +29,32 @@ class Main_page extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-        show: false
+        show: false,
+        mobile: false
     }
     this.toogleShow = this.toogle.bind(this)
 }
 
-toogle(e) {
-  const {show} = this.state;
- 
-  window.scrollTo(0,0);
+componentDidMount() {
+  const mobile = window.screen.width;
+  if(mobile < 770) {
     this.setState({
-      show: !show,
+      mobile: true
     })
   }
+}
+
+toogle(e) {
+  const {show} = this.state;
+  window.scrollTo(0,0);
+  this.setState({
+    show: !show,
+  })
+}
 
   render() {
     const { toogleShow} = this;
-    const { show } = this.state;
-
+    const { show, mobile } = this.state;
     if(show) {
       document.getElementsByTagName('html')[0].style.overflowX="hidden";
       document.getElementsByTagName('html')[0].style.overflowY="hidden";
@@ -76,7 +85,7 @@ toogle(e) {
             <AnswerBlock header="Вопросы и ответы" answers={answers} />
             <Footer />
             <Popup show={show} onClick={toogleShow} />
-            <CallBtn show={show} onClick={toogleShow} />
+            { mobile ? <WatsBtn  show={show} /> : <CallBtn show={show} onClick={toogleShow}/>}
             <div className="footer_cap"></div>
           </div>
         </div>

@@ -36,6 +36,15 @@
   padding-top: 10%;
 }
 
+.nav_container_product {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  padding-left: 130px;
+  padding-top: 10%;
+}
+
 .slider_container_cards {
   /* width: 100%;
   display: flex;
