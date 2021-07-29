@@ -1,6 +1,6 @@
 
 .answer_container {
-  width: 27%;
+  width: 90%;
 }
 
 .answer_cross {
@@ -29,7 +29,7 @@
 }
 
 .answer_description {
-  margin: 0 533px 49px 0;
+  margin: 21px 0px 50px 0;
   font-family: Montserrat;
   font-size: 15px;
   font-weight: normal;

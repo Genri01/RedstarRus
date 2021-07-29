@@ -37,14 +37,14 @@ function TitleBlock(props) {
             <div className="main_container_title">
               {title}
             </div>
-            <div className="main_container_subtitle">
+            <div className={`${product ? 'main_container_subtitle_product' : "main_container_subtitle"}`}>
               {subtitle}
             </div>
             <div style={{display: h ? `none`: 'flex'}} className="main_container_description">
               {description}
             </div>
             <div className="main_container_btn">
-              {btn && <ButtonSection link="/about" mt={36} mr={888} mb={0} ml={16} width={131} height={58} title="О НАС" />}
+              {btn && <ButtonSection link="/about" mt={36} mr={888} mb={0} ml={30} width={131} height={58} title="О НАС" />}
             </div>
           </div>
           {!main && (<div className="main_container_price">

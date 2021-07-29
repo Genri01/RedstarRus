@@ -3746,6 +3746,9 @@ width: 100%;
     font-size: 16px;
   }
 
+  .answer_container {
+    width: 27%;
+  }
   .answer_description {
     width: 310px;
     margin-left: 30px;
@@ -3796,19 +3799,29 @@ width: 100%;
     padding-left: 15px;
     font-size: 13px;
     margin-left: 512px;
+    height: auto;
+    line-height: 1.5;
   }
 
   .main_container_subtitle {
     width: 100%;
     font-size: 15px;
     margin: 30px 0px;
+    padding-left: 30px;
+  }
+
+  .main_container_subtitle_product {
+    width: 100%;
+    font-size: 15px;
+    margin: 30px 0px;
+    padding-left: 0px;
   }
 
   .main_container_description {
     display: flex;
     width: 299px;
     height: auto;
-    margin: 0px;
+    margin-left: 0 0 0 30px;
     font-size: 12px;
   }
 
