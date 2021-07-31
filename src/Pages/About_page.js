@@ -58,11 +58,11 @@ class About_page extends React.Component {
 Экскурсии проводятся на следующих языках:<br />
 
 Русский<br />
-Английский<div class="break"></div>
-Французский<div class="break"></div>
-Немецкий<div class="break"></div>
-Испанский<div class="break"></div>
-Китайский <div class="break"></div>
+Английский<div className="break"></div>
+Французский<div className="break"></div>
+Немецкий<div className="break"></div>
+Испанский<div className="break"></div>
+Китайский <div className="break"></div>
 </div>
               <div className="container_about_cards">
                 {
