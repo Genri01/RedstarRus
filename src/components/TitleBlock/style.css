@@ -18,7 +18,7 @@
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-color: #fafafa;
 }
 
@@ -34,7 +34,7 @@
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-color: #fafafa;
 }
 
@@ -87,6 +87,22 @@
   font-family: 'Montserrat-Bold';
 }
 
+.main_container_title_product {
+  display: flex;
+  /* margin: 0 0 20px; */
+  padding-left: 30px;
+  height: auto;
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  color: #212629;
+  font-family: 'Montserrat-Bold';
+}
+
 .main_container_subtitle {
   display: flex;
   margin: 20px 20px 0 0;
@@ -123,6 +139,7 @@
   justify-content: space-between;
   height: 100%;
   background-color: #fafafa;
+  margin-top: -60px;
 }
 
 .main_container_price {
