@@ -3743,6 +3743,7 @@ width: 100%;
   }
 
   .answerblock_container {
+    align-items: center;
     padding-left: 0%;
   }
 
@@ -4540,7 +4541,14 @@ width: 100%;
 
 
   .main_container_img_product {
-    height: 570px;
+    display: flex;
+    justify-self:flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 1100px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
     position: relative;
   }
 
