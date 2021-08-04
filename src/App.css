@@ -4153,13 +4153,7 @@ width: 100%;
   }
 
   .routes_container_cards {
-    display: -webkit-flex;
-    flex-direction: column;
-    width: 26%;
-    height: auto;
-    flex: 1 1 !important;
-    align-items: flex-start;
-    padding-left: 0px;
+    width: 25%;
   }
 
 
