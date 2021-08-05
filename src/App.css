@@ -568,9 +568,14 @@ width: 100%;
   width: 90%;
 }
 .routes_container {
-  width: 70%;
+  width: 25%;
   padding-left: 70px;
 }
+
+.routes_container_cards {
+  width: 25%;
+}
+
 .header_container {
   padding-left: 260px;
 }
@@ -1043,11 +1048,16 @@ width: 100%;
     margin-left: 420px !important;
     padding-top: 1% !important;
     padding-left: 10% !important;
+    width: 25%;
   }
 
   .routes_container_header {
     font-size: 30px !important;
   }
+
+  .routes_container_cards {
+    width: 25%;
+}
 
   .routes_container_title {
     width: 300px !important;
@@ -1057,6 +1067,7 @@ width: 100%;
   .route_time {
     font-size: 15px !important;
     line-height: 2.27 !important;
+    width: 25% !important;
   }
 
   .route_description {
@@ -1634,11 +1645,16 @@ width: 100%;
     margin-left: 420px !important;
     padding-top: 1% !important;
     padding-left: 10% !important;
+    width: 25%;
   }
 
   .routes_container_header {
     font-size: 30px !important;
   }
+
+  .routes_container_cards {
+    width: 25%;
+}
 
   .routes_container_title {
     width: 300px !important;
@@ -1648,6 +1664,7 @@ width: 100%;
   .route_time {
     font-size: 15px !important;
     line-height: 2.27 !important;
+    width: 25% !important;
   }
 
   .route_description {
@@ -2266,12 +2283,16 @@ width: 100%;
     margin-left: 420px !important;
     padding-top: 1% !important;
     padding-left: 10% !important;
+    width: 25%;
   }
 
   .routes_container_header {
     font-size: 30px !important;
   }
 
+  .routes_container_cards {
+    width: 25%;
+}
   .routes_container_title {
     width: 300px !important;
     font-size: 13px !important;
@@ -2280,6 +2301,7 @@ width: 100%;
   .route_time {
     font-size: 15px !important;
     line-height: 2.27 !important;
+    width: 25% !important;
   }
 
   .route_description {
@@ -2891,11 +2913,16 @@ width: 100%;
     margin-left: 420px !important;
     padding-top: 1% !important;
     padding-left: 10% !important;
+    width: 25%;
   }
 
   .routes_container_header {
     font-size: 30px !important;
   }
+
+  .routes_container_cards {
+    width: 25%;
+}
 
   .routes_container_title {
     width: 300px !important;
@@ -2905,6 +2932,7 @@ width: 100%;
   .route_time {
     font-size: 15px !important;
     line-height: 2.27 !important;
+    width: 25% !important;
   }
 
   .route_description {
@@ -3481,11 +3509,16 @@ width: 100%;
     margin-left: 420px !important;
     padding-top: 1% !important;
     padding-left: 10% !important;
+    width: 25%;
   }
 
   .routes_container_header {
     font-size: 30px !important;
   }
+
+  .routes_container_cards {
+    width: 25%;
+}
 
   .routes_container_title {
     width: 300px !important;
@@ -3495,6 +3528,7 @@ width: 100%;
   .route_time {
     font-size: 15px !important;
     line-height: 2.27 !important;
+    width: 25% !important;
   }
 
   .route_description {
@@ -4140,6 +4174,7 @@ width: 100%;
     margin-left: 400px !important;
     padding-top: 1% !important;
     padding-left: 9% !important;
+    width: 25%;
   }
 
   .routes_container_header {
@@ -4160,6 +4195,7 @@ width: 100%;
   .route_time {
     font-size: 15px !important;
     line-height: 2.27 !important;
+    width: 25% !important;
   }
 
   .route_description {
@@ -4820,11 +4856,16 @@ width: 100%;
     margin-left: 420px !important;
     padding-top: 1% !important;
     padding-left: 7% !important;
+    width: 25%;
   }
 
   .routes_container_header {
     font-size: 30px !important;
   }
+
+  .routes_container_cards {
+    width: 25%;
+}
 
   .routes_container_title {
     width: 300px !important;
@@ -4834,6 +4875,7 @@ width: 100%;
   .route_time {
     font-size: 15px !important;
     line-height: 2.27 !important;
+    width: 25% !important;
   }
 
   .route_description {
@@ -5438,11 +5480,16 @@ width: 100%;
     margin-left: 420px !important;
     padding-top: 1% !important;
     padding-left: 10% !important;
+    width: 25%;
   }
 
   .routes_container_header {
     font-size: 30px !important;
   }
+
+  .routes_container_cards {
+    width: 25%;
+}
 
   .routes_container_title {
     width: 300px !important;
@@ -5452,6 +5499,7 @@ width: 100%;
   .route_time {
     font-size: 15px !important;
     line-height: 2.27 !important;
+    width: 25% !important;
   }
 
   .route_description {
@@ -6028,11 +6076,16 @@ width: 100%;
     margin-left: 420px !important;
     padding-top: 1% !important;
     padding-left: 10% !important;
+    width: 25%;
   }
 
   .routes_container_header {
     font-size: 30px !important;
   }
+
+  .routes_container_cards {
+    width: 25%;
+}
 
   .routes_container_title {
     width: 300px !important;
@@ -6042,6 +6095,7 @@ width: 100%;
   .route_time {
     font-size: 15px !important;
     line-height: 2.27 !important;
+    width: 25% !important;
   }
 
   .route_description {
@@ -6669,11 +6723,16 @@ width: 100%;
     margin-left: 420px !important;
     padding-top: 1% !important;
     padding-left: 10% !important;
+    width: 25%;
   }
 
   .routes_container_header {
     font-size: 30px !important;
   }
+
+  .routes_container_cards {
+    width: 25%;
+}
 
   .routes_container_title {
     width: 300px !important;
@@ -6683,6 +6742,7 @@ width: 100%;
   .route_time {
     font-size: 15px !important;
     line-height: 2.27 !important;
+    width: 25% !important;
   }
 
   .route_description {
@@ -6800,10 +6860,16 @@ width: 100%;
   .book_container {
     padding-left: 38% !important;
   }
+
   .routes_container {
     margin-left: 320px !important;
     padding-left: 10% !important;
+    width: 25%;
   }
+
+  .routes_container_cards {
+    width: 25%;
+}
   .nav_container {
     padding-left: 40%;
     padding-top: 2%;
