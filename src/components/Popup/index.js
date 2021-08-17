@@ -460,13 +460,13 @@ componentDidMount() {
         <form className="container_form" onSubmit={handleSubmit}>
           <img className="popup_cross" onClick={()=>onClick()} src={cross} alt="cross" width={25} height={25} /> 
           <div className="popup_header">Свяжитесь с нами</div>
-          <div className="popup_title">Оставьте нам своё сообщение с пожеланиями и наименованием желаемой экскурсии, и мы свяжемся с Вами в кратчайшие сроки! </div>
+          <div className="popup_title">Отправьте нам свое сообщение с названием желаемой экскурсии или оставьте нам свои пожелания по поводу индивидуального тура. Мы свяжемся с Вами в кратчайшие сроки! </div>
           <div className="popup_description">E-mail</div>
           <input name="email" placeholder="your@email.com" className={`popup_input ${errEmail ? 'error_input' : ''}`}  type="text" value={email} onChange={changeEmail} />
           <div className="popup_description">Телефон</div>
           <InputMask placeholder="your phone" className={`popup_input ${errTel ? 'error_input' : ''}`}  name="telephone" mask={`${mask}`} maskChar={'_'} value={phone} onChange={this.changeTel} />
           <div className="popup_description">Сообщение<sup>*</sup></div>
-          <textarea name="msg" placeholder="Укажите как можно больше информации: дата экскурсии,наименование экскурсии,количество человек,пожелания..." className="popup_textarea" value={msg} onChange={changeMsg} />
+          <textarea name="msg" placeholder="Укажите как можно больше информации: дата и время экскурсии, название экскурсии, количество человек, Ваши пожелания..." className="popup_textarea" value={msg} onChange={changeMsg} />
           <div className="container_btn">
             <ButtonSection lock onClick={onClick} cancel mr={10} title="ОТМЕНИТЬ" width={200} height={54} fs={15} />
             {

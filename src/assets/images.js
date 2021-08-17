@@ -47,12 +47,24 @@ import walking_8 from './images/walking_8@.png';
 import walking_8x from './images/walking_8@2x.png';
 import walking_9 from './images/walking_9@.png';
 import walking_9x from './images/walking_9@2x.png';
+import auto_0 from './images/auto_0@.png';
+import auto_0x from './images/auto_0@2x.png';
 import auto_1 from './images/auto_1@.png';
 import auto_1x from './images/auto_1@2x.png';
 import auto_2 from './images/auto_2@.png';
 import auto_2x from './images/auto_2@2x.png';
 import auto_3 from './images/auto_3@.png';
 import auto_3x from './images/auto_3@2x.png';
+import auto_4 from './images/auto_4@.png';
+import auto_4x from './images/auto_4@2x.png';
+import auto_5 from './images/auto_5@.png';
+import auto_5x from './images/auto_5@2x.png';
+import auto_6 from './images/auto_6@.png';
+import auto_6x from './images/auto_6@2x.png';
+import auto_7 from './images/auto_7@.png';
+import auto_7x from './images/auto_7@2x.png';
+import auto_8 from './images/auto_8@.png';
+import auto_8x from './images/auto_8@2x.png';
 import author_0 from './images/author_0@.png';
 import author_0x from './images/author_0@2x.png';
 import individuals from './images/individual.png';
@@ -92,12 +104,24 @@ const images = {
   walking_8x,
   walking_9,
   walking_9x,
+  auto_0,
+  auto_0x,
   auto_1,
   auto_1x,
   auto_2,
   auto_2x,
   auto_3,
   auto_3x,
+  auto_4,
+  auto_4x,
+  auto_5,
+  auto_5x,
+  auto_6,
+  auto_6x,
+  auto_7,
+  auto_7x,
+  auto_8,
+  auto_8x,
   author_0,
   author_0x,
   walking,
