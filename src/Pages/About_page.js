@@ -89,7 +89,7 @@ class About_page extends React.Component {
           <div>
           <div className="contacts_header">Наши контакты</div>
           <div className="contacts_title">Адрес</div>
-          <div className="contacts_description">188300, г.Гатчина, ул 7 Армии, дом 23а, пом. 22 </div>
+          <div className="contacts_description">188300, г. Гатчина, ул 7 Армии, дом 23а, пом. 22 </div>
           <div className="contacts_title">Часы работы</div>
           <div className="container_work">
             <div>
@@ -97,8 +97,8 @@ class About_page extends React.Component {
               <div className="contacts_title_description">Сб-Вс</div>
             </div>
             <div>
-              <div className="contacts_description">9:00 - 20:00</div>
-              <div className="contacts_description">10:00 - 18:00</div>
+              <div className="contacts_description">24 часа</div>
+              <div className="contacts_description">24 часа</div>
             </div>
           </div>
           <div className="contacts_title">Для связи</div>

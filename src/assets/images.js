@@ -65,6 +65,12 @@ import auto_7 from './images/auto_7@.png';
 import auto_7x from './images/auto_7@2x.png';
 import auto_8 from './images/auto_8@.png';
 import auto_8x from './images/auto_8@2x.png';
+import auto_9 from './images/auto_9@.png';
+import auto_9x from './images/auto_9@2x.png';
+import auto_10 from './images/auto_10@.png';
+import auto_10x from './images/auto_10@2x.png';
+import auto_11 from './images/auto_11@.png';
+import auto_11x from './images/auto_11@2x.png';
 import author_0 from './images/author_0@.png';
 import author_0x from './images/author_0@2x.png';
 import individuals from './images/individual.png';
@@ -122,6 +128,12 @@ const images = {
   auto_7x,
   auto_8,
   auto_8x,
+  auto_9,
+  auto_9x,
+  auto_10,
+  auto_10x,
+  auto_11,
+  auto_11x,
   author_0,
   author_0x,
   walking,
