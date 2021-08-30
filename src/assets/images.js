@@ -47,6 +47,18 @@ import walking_8 from './images/walking_8@.png';
 import walking_8x from './images/walking_8@2x.png';
 import walking_9 from './images/walking_9@.png';
 import walking_9x from './images/walking_9@2x.png';
+import walking_10 from './images/walking_10@.png';
+import walking_10x from './images/walking_10@2x.png';
+import walking_11 from './images/walking_11@.png';
+import walking_11x from './images/walking_11@2x.png';
+import walking_12 from './images/walking_12@.png';
+import walking_12x from './images/walking_12@2x.png';
+import walking_13 from './images/walking_13@.png';
+import walking_13x from './images/walking_13@2x.png';
+import walking_14 from './images/walking_14@.png';
+import walking_14x from './images/walking_14@2x.png';
+import walking_15 from './images/walking_15@.png';
+import walking_15x from './images/walking_15@2x.png';
 import auto_0 from './images/auto_0@.png';
 import auto_0x from './images/auto_0@2x.png';
 import auto_1 from './images/auto_1@.png';
@@ -71,6 +83,8 @@ import auto_10 from './images/auto_10@.png';
 import auto_10x from './images/auto_10@2x.png';
 import auto_11 from './images/auto_11@.png';
 import auto_11x from './images/auto_11@2x.png';
+import auto_12 from './images/auto_12@.png';
+import auto_12x from './images/auto_12@2x.png';
 import author_0 from './images/author_0@.png';
 import author_0x from './images/author_0@2x.png';
 import individuals from './images/individual.png';
@@ -110,6 +124,18 @@ const images = {
   walking_8x,
   walking_9,
   walking_9x,
+  walking_10,
+  walking_10x,
+  walking_11,
+  walking_11x,
+  walking_12,
+  walking_12x,
+  walking_13,
+  walking_13x,
+  walking_14,
+  walking_14x,
+  walking_15,
+  walking_15x,
   auto_0,
   auto_0x,
   auto_1,
@@ -134,6 +160,8 @@ const images = {
   auto_10x,
   auto_11,
   auto_11x,
+  auto_12,
+  auto_12x,
   author_0,
   author_0x,
   walking,
