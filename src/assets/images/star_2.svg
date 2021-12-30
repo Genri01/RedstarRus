@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Star</title>
-    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
-        <g id="ГЛАВНАЯ" transform="translate(-726.000000, -4564.000000)" fill-rule="nonzero" stroke="#E3282B" stroke-width="1.5">
-            <g id="Инди" transform="translate(683.000000, 4093.000000)">
-                <g id="Group-60" transform="translate(0.000000, 446.000000)">
-                    <g id="Group-57" transform="translate(44.000000, 24.000000)">
-                        <g id="Group-53" transform="translate(0.000000, 0.250000)">
-                            <polygon id="Star" points="8 14 3.29771798 16.472136 4.19577393 11.236068 0.39154787 7.52786405 5.64885899 6.76393202 8 2 10.351141 6.76393202 15.6084521 7.52786405 11.8042261 11.236068 12.702282 16.472136"></polygon>
-                        </g>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg height="17" viewBox="0 0 18 17" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m8 14-4.70228202 2.472136.89805595-5.236068-3.80422606-3.70820395 5.25731112-.76393203 2.35114101-4.76393202 2.351141 4.76393202 5.2573111.76393203-3.804226 3.70820395.8980559 5.236068z" fill="none" stroke="#e3282b" stroke-linejoin="round" stroke-width="1.5" transform="translate(1 -.75)"/></svg>

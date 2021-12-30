@@ -22,7 +22,7 @@ function TitleBlock(props) {
     return (
       <section style={{height: h ? `${h}px`: ''}} className="main_container">
         {/* <div style={{backgroundImage:`url(${img_head})`}} className="main_container_img"> */}
-        <div style={{backgroundImage:`url(${img_head})`}}  className={`${product ? 'main_container_img_product' : 'main_container_img'}`}>
+        <div style={{backgroundImage:`url(https://pixboost.com/api/2/img/https://redstar-rus-genri01.vercel.app/${img_head}/resize?size=200&auth=MTQ4OTY2NTYyMw__)`}}  className={`${product ? 'main_container_img_product' : 'main_container_img'}`}>
           {/* <img className="main_img" src={img_head}  alt="main_img" width="100%" height="100%" /> */}
           {/* <div style={{top: ht ? `${ht}px`: ''}} className="img_cap"></div> */}
           <div className="text_container_fix">

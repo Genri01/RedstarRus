@@ -20,6 +20,7 @@
   background-size: cover;
   background-position: bottom;
   background-color: #fafafa;
+  background-attachment: fixed;
 }
 
 .main_container_img_product {
@@ -35,6 +36,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
+  background-attachment: fixed;
   background-color: #fafafa;
 }
 
