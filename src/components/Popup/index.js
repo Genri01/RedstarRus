@@ -328,10 +328,12 @@ componentDidMount() {
   fetch('https://api.sypexgeo.net/json')
   .then(response => response.json())
   .then(data => {
-    this.setState({ 
-      mask: quality[data.country.iso],
-      tel_code: '+' + data.country.phone
-     })
+    if(data.country!= null) {
+      this.setState({ 
+        mask: quality[data.country.iso],
+        tel_code: '+' + data.country.phone
+       })
+    }
   });
 }
   Email(event) {
