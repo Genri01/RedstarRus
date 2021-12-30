@@ -92,7 +92,7 @@ moveRight() {
                   <div className="btn_title_container">
                     <ButtonSection title={el.btn_title} active />
                   </div>
-                  <img src={el.img} alt="types" width="100%" height="100%" />
+                  <img src={`https://pixboost.com/api/2/img/https://redstar-rus-genri01.vercel.app/${el.img}/optimise&auth=MTQ4OTY2NTYyMw__`} alt="types" width="100%" height="100%" />
                 </div>
                 <div className="slider_info_all_container">
                   <div className="slider_info_container_up">
