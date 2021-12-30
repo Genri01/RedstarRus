@@ -12,7 +12,7 @@ class WhyBlock extends React.Component {
           {
             blocks.map((el,id) => (
               <div className="why_card" key={id}>
-                <img className="why_card_img" src={`https://pixboost.com/api/2/img/https://redstar-rus-genri01.vercel.app/${el.img}/optimise&auth=MTQ4OTY2NTYyMw__`}  alt="why_img" width={146} height={146} />
+                <img className="why_card_img" src={`https://pixboost.com/api/2/img/https://redstar-rus-genri01.vercel.app/${el.img}/optimise?auth=MTQ4OTY2NTYyMw__`}  alt="why_img" width={146} height={146} />
                 <div className="why_card_title">{el.header}</div>
                 <div className="why_card_description">{el.description}</div>
               </div>
