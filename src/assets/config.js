@@ -2,7 +2,6 @@ import images from './images'
 
 const { 
   image_path,
-  individuals,
   walk,
   walking,
   walking_x,
@@ -61,7 +60,6 @@ const {
   auto_12,
   auto_12x,
   author,
-  author_1,
   author_0,
   author_0x,
   auto,
@@ -69,15 +67,11 @@ const {
   advantages_2,
   advantages_3,
   hours,
-  photostop_2,
   transfer,
   guide,
   start,
   photostop_1,
   museum,
-  lunch,
-  optional,
-  header
  } = images;
 
 const cards = [
