@@ -4,8 +4,6 @@ import ButtonSection from '../ButtonSection/index';
 import image from '../../assets/images';
 import InputMask from 'react-input-mask';
 
-
-
 class Popup extends React.Component {
   constructor(props) {
     super(props)
@@ -311,7 +309,6 @@ class Popup extends React.Component {
           "ZM": "+260-99-999-9999", 
           "ZW": "+263-9-999999" 
         }
-        
     }
     this.changeEmail = this.Email.bind(this)
     this.changeTel = this.Telephone.bind(this)

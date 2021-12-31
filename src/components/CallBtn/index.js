@@ -14,7 +14,6 @@ function CallBtn(props) {
       </div>
     </div>
   );
-    
 }
 
 export default CallBtn;

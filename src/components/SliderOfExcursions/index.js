@@ -1,5 +1,4 @@
 import React from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import images from '../../assets/images';
@@ -25,7 +24,6 @@ class SliderOfExcursions extends React.Component {
     this.rightClick = this.moveRight.bind(this)
     this.leftClick = this.moveLeft.bind(this)
 }
-
 
 componentDidMount() {
   const { number } = this.props;

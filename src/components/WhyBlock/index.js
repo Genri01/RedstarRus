@@ -1,7 +1,6 @@
 import React from 'react';
 import './style.css';
 
-
 class WhyBlock extends React.Component {
   render() {
     const { header, blocks } = this.props;
