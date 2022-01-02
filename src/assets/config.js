@@ -1435,6 +1435,9 @@ const aboutcards = [
   }
 ]
 
+const domain = 'https://ru.redstarbaltic.com/'
+
+
 const objectsSection = {
   cards,
   sliderWalk,
@@ -1442,7 +1445,8 @@ const objectsSection = {
   sliderAuthor,
   blocks,
   answers,
-  aboutcards
+  aboutcards,
+  domain
 }
 
 export default objectsSection;

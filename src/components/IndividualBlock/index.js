@@ -17,7 +17,7 @@ function IndividualBlock(props) {
           </div>
           <div className="individual_container_right">
             <div className="info_container">
-            <img className="info_background" src={`https://pixboost.com/api/2/img/https://redstar-rus-genri01.vercel.app/${individual_card}/optimise?auth=MTQ4OTY2NTYyMw__`} alt="churches_1" width="100%" height="100%" />
+            <img className="info_background" src={`https://pixboost.com/api/2/img/https://ru.redstarbaltic.com/${individual_card}/optimise?auth=MTQ4OTY2NTYyMw__`} alt="churches_1" width="100%" height="100%" />
             </div>
           </div>
       </div>

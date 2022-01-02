@@ -30,7 +30,7 @@ function Footer(props) {
               <img style={{cursor: 'pointer'}} onClick={(e)=>{ document.location.href = "https://www.facebook.com/";}} src={facebook} alt="facebook" width="28" height="28" />
             </div>
             <div className="qr">
-              <img src={`https://pixboost.com/api/2/img/https://redstar-rus-genri01.vercel.app/${qr}/optimise?auth=MTQ4OTY2NTYyMw__`} alt="qr" width="50" height="50" />
+              <img src={`https://pixboost.com/api/2/img/https://ru.redstarbaltic.com/${qr}/optimise?auth=MTQ4OTY2NTYyMw__`} alt="qr" width="50" height="50" />
             </div>
           </div>
         </div>

@@ -10,7 +10,7 @@ function WatsBtn(props) {
       window.open('https://wa.me/79095819912?text=Я%20заинтересован%20в%20ваших%20экскурсиях!');
     }} className="call_container">
       <div className="call_wrapper">
-        <img className="call_up" src={`https://pixboost.com/api/2/img/https://redstar-rus-genri01.vercel.app/${wats_up}/optimise?auth=MTQ4OTY2NTYyMw__`} alt="call_up" width={95} />
+        <img className="call_up" src={`https://pixboost.com/api/2/img/https://ru.redstarbaltic.com/${wats_up}/optimise?auth=MTQ4OTY2NTYyMw__`} alt="call_up" width={95} />
       </div>
     </div>
   );

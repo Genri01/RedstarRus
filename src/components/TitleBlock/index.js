@@ -19,7 +19,7 @@ function TitleBlock(props) {
   } = props;
     return (
       <section style={{height: h ? `${h}px`: ''}} className="main_container">
-        <div style={{backgroundImage:`url(https://pixboost.com/api/2/img/https://redstar-rus-genri01.vercel.app/${img_head}/optimise?auth=MTQ4OTY2NTYyMw__)`}}  className={`${product ? 'main_container_img_product' : 'main_container_img'}`}>
+        <div style={{backgroundImage:`url(https://pixboost.com/api/2/img/https://ru.redstarbaltic.com/${img_head}/optimise?auth=MTQ4OTY2NTYyMw__)`}}  className={`${product ? 'main_container_img_product' : 'main_container_img'}`}>
           <div className="text_container_fix">
             <div className="main_container_title_block_header">{header}</div>
             <div className="main_container_title_block_subheader">{subheader}</div>
